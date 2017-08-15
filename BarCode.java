@@ -1,3 +1,4 @@
+/* requiere instalacion de itext */
 package barcode;
 import com.itextpdf.text.pdf.BarcodePDF417;
 import java.awt.Color;
