@@ -1,6 +1,8 @@
 # appdte
 LIBRERIAS DE FACTURACION ELECTRONICA (CHILE).
 
+DESCRIPCION DE ARCHIVOS:
+
 Requisitos: php 5.0, python 2.7 (puede modificarse para python 3.0) y java con itext.
 
 Barcode.java /* Es la librera para generar el codigo de barra pdf417 */
@@ -19,4 +21,4 @@ Token.php /* Obtiene un Token del sii */
 
 LecturaCaf.php /* Se engarga de leer el caf extraido del sii y adjuntarlo al dte */
 
-ImpresionDte.java /* Es simplemente un clase java que leer un iforme de jasperreport */
+ImpresionDte.java /* Es simplemente un clase java que lee un iforme de jasperreport */
