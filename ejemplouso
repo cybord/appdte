@@ -1,0 +1,141 @@
+$objDte = new ClassDte($idEmpresa,$TipoDocumento,$idMovimiento);
+				$objDte->NumFolio = $NumCorrelativo;
+				
+				//DATOS DEL EMISOR
+				$objEmpresa->BusquedaEmpresaId($idEmpresa);
+				$objDte->EmpresaRaz = $objEmpresa->EmpresaRaz;  
+				$objDte->EmpresaRut = $objEmpresa->EmpresaRut;
+				$objDte->EmpresaGir = $objEmpresa->EmpresaGir;
+				$objDte->EmpresaDir = $objEmpresa->EmpresaDir;
+				$objDte->EmpresaFon = $objEmpresa->EmpresaFon;
+				$objDte->EmpresaEma = $objEmpresa->EmpresaEma;
+				$objDte->EmpresaCiu = $objEmpresa->EmpresaCiu;
+				$objDte->EmpresaCom = $objEmpresa->EmpresaCom;
+				$objDte->EmpresaActeco = $objEmpresa->EmpresaActeco;
+				
+				//DATOS DEL RECEPTOR
+				$objClienteProveedor->BusquedaClienteProveedorId($idClienteProveedor);
+				$objDte->ClienteProveedorRut = $objClienteProveedor->ClienteProveedorRut;
+				$objDte->ClienteProveedorRaz = $objClienteProveedor->ClienteProveedorRaz;
+				$objDte->ClienteProveedorGir = $objClienteProveedor->ClienteProveedorGir;
+				$objDte->ClienteProveedorDir = $objClienteProveedor->ClienteProveedorDir;
+				$objDte->ClienteProveedorCiu = $objClienteProveedor->ClienteProveedorCiu;
+				$objDte->ClienteProveedorCom = $objClienteProveedor->ClienteProveedorCom;
+				$objDte->ClienteProveedorFon = $objClienteProveedor->ClienteProveedorFon;
+						 $objDte->ParmMontoNeto = $TotalNeto;
+						 $objDte->ParmTasaIva = $objParametros->TasaIva();
+						 $objDte->ParmIva = $Iva;
+						 $objDte->ParmValorTotal = $TotalBruto;
+						 $objDte->ParmMontoExento = $Exento;
+						 
+				$objDte->CreaDocumento();
+				$objDte->GeneraCabezera();
+				$objEnvioDTE->EmpresaRut = $objEmpresa->EmpresaRut;
+				$objEnvioDTE->ClienteProveedorRut = $objClienteProveedor->ClienteProveedorRut;
+				
+			  $objMovimiento->CargarDetalle($idMovimiento);
+			 //cargo los detalles al xml
+			while($resultado = $objMovimiento->FetchArray()){
+					$parmProductoCod = $resultado['ProductoCod'];
+			        $parmProductoNom = $resultado['ProductoNom'];
+					$parmProductoPre = $resultado['ProductoPrecioVenta'];
+				    $parmCantidad = $resultado['Cantidad'];		
+					$parmDescuento = $resultado['DetalleDescuento'];
+					$parmRecargo = $resultado['DetalleRecargo'];
+					$parmPorcentaje = $resultado['Porcentaje'];	
+					$parmTotalDetalle = $resultado['TotalDetalle'];
+					$parmProductoAfectoExento = $resultado['ProductoAfectoExento'];	
+				    $objDte->AgregaDetalle($parmProductoCod,$parmProductoNom,$parmProductoPre,$parmCantidad,$parmDescuento,$parmRecargo,$parmPorcentaje,$parmProductoAfectoExento, $parmTotalDetalle);
+		       }
+			
+			 if($Descuento>0){
+				  $objDte->AgregaDescuentoAfecto($Descuento);  
+			  }
+			  
+			  									 
+			//if($TipoDocumento==4 || $TipoDocumento==6){
+			     $objDte->parmTpoDocRef = $TpoDocRef ;
+				 $objDte->parmRazonRef = $GlobalRef ;
+				 $objDte->parmNroFolioRef = $NroFolioRef;
+				 $objDte->parmFchRef = $FchRef;
+				// $objDte->parmCodRef = $CodRef;
+				 $objDte->AgregaReferencia();
+			//}								
+			  
+			  
+			  
+			  
+			  									 
+			if($TipoDocumento==4 || $TipoDocumento==6){
+				echo 'agrega referencia';
+			     $objDte->parmTpoDocRef2 = $TpoDocRef2;
+				 $objDte->parmRazonRef2 = $GlobalRef2;
+				 $objDte->parmNroFolioRef2 = $NroFolioRef2;
+				 $objDte->parmFchRef2 = $FchRef2;
+				 $objDte->parmCodRef2 = $CodRef2;
+				 $objDte->AgregaReferencia2();
+		     }								
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+				$objDte->CargarCaf();	
+				//Generacion del Dte
+				
+                                       
+				$objDte->GuardarDocumento();
+
+
+                    shell_exec("java -cp BarCode.jar barcode.ImpresionDte ".$idMovimiento." > resultado.txt");
+				 	$comando = "java -cp BarCode.jar barcode.BarCode ".$idMovimiento." > resultado.txt";
+				    shell_exec($comando);
+					
+
+				
+				    $objEnvioDTE->MovimientoId = $idMovimiento;
+			    	$objEnvioDTE->CreaEnvioDTE($TipoDocumento,$NumCorrelativo);
+				    require '../libdte/emisiondte.php';					
+					$track = new DOMDocument;
+					$pathrespuesta = 'respuestaenvio'.$idMovimiento.'.xml';
+					$track->load($pathrespuesta);
+					$identificadorenvio ='';	
+					$items = $track->getElementsByTagName('TRACKID');
+					for ($i = 0; $i < $items->length; $i++) {
+						$identificadorenvio = $items->item($i)->nodeValue;
+						
+					}
+					echo '<br>';
+					
+					$objAppRecord = new AppRecord();
+					$identificadorenvio = (int)$identificadorenvio;
+					$sql = "Update Movimiento set MovimientoIdentificadorEnvio=$identificadorenvio,MovimientoEstadoEnvio=1 where MovimientoId=$idMovimiento";
+				
+					 $objAppRecord->ExecuteSql($sql);
+					
+					 $fp = fopen('../downloads/dtestamped'.$idMovimiento.'.pdf', "rb");
+                     $contenido = fread($fp, filesize('../downloads/dtestamped'.$idMovimiento.'.pdf'));
+                     $contenido = addslashes($contenido);
+                     fclose($fp); 
+					 $sql =  "Insert into BlobPdf (MovimientoId,BlobContenido) values($idMovimiento,'$contenido')";
+					 $objAppRecord->ExecuteSql($sql); 	
+					 ?>
+							<div class="container">
+								<div class="row">
+								<div class="col-md-8 col-md-offset-2">
+							<div class="alert alert-success">
+								<strong>IDENTIFICADOR DE ENVIO:<?php echo $identificadorenvio; ?></strong><br>
+									Descargar archivo: <a target="_blank" href="../downloads/dtestamped<?php echo $idMovimiento; ?>.pdf"><span class="glyphicon glyphicon-download-alt"></span></a>
+									</div>
+								</div>
+							</div>
+							</div>
+					<?php
