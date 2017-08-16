@@ -1,3 +1,8 @@
+require_once '../libdte/ClassDte.php';
+require_once '../includes/Empresa.php';
+require_once '../libdte/EnvioDTE.php';
+
+
 $objDte = new ClassDte($idEmpresa,$TipoDocumento,$idMovimiento);
 				$objDte->NumFolio = $NumCorrelativo;
 				
