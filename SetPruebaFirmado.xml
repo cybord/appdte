@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<envio:EnvioDTE xmlns="http://www.sii.cl/SiiDte" xmlns:envio="http://www.sii.cl/SiiDte" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd" version="1.0"><SetDTE ID="SetDoc"><Caratula version="1.0"><RutEmisor>76040308-3</RutEmisor><RutEnvia>13968481-8</RutEnvia><RutReceptor>60803000-K</RutReceptor><FchResol>2016-04-25</FchResol><NroResol>0</NroResol><TmstFirmaEnv>2017-09-14T11:21:21</TmstFirmaEnv><SubTotDTE><TpoDTE>33</TpoDTE><NroDTE>4</NroDTE></SubTotDTE><SubTotDTE><TpoDTE>61</TpoDTE><NroDTE>3</NroDTE></SubTotDTE><SubTotDTE><TpoDTE>56</TpoDTE><NroDTE>1</NroDTE></SubTotDTE></Caratula>
+<DTE version="1.0">
+  <Documento ID="F534T33">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>534</Folio>
+        <FchEmis>2017-09-14</FchEmis>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>76040308-3</RUTEmisor>
+        <RznSoc>ESTEBAN GABRIEL GUENUL ALMONACID SERVIC</RznSoc>
+        <GiroEmis>SERVICIOS INFORMATICOS</GiroEmis>
+        <Acteco>726000</Acteco>
+        <CdgSIISucur>1</CdgSIISucur>
+        <DirOrigen>URMENETA 305 OFIC 513</DirOrigen>
+        <CmnaOrigen>PUERTO MONTT</CmnaOrigen>
+        <CiudadOrigen>PUERTO MONTT</CiudadOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>77813960-K</RUTRecep>
+        <RznSocRecep>AMULEN CONSULTORES LTDA</RznSocRecep>
+        <GiroRecep>ASESORIA TRIBUTARIA</GiroRecep>
+        <DirRecep>URMENETA 305 OFIC 513</DirRecep>
+        <CmnaRecep>PUERTO MONTT</CmnaRecep>
+        <CiudadRecep>PUERTO MONTT</CiudadRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>111855</MntNeto>
+        <TasaIVA>19</TasaIVA>
+        <IVA>21252</IVA>
+        <MntTotal>133107</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT</TpoCodigo>
+        <VlrCodigo>7</VlrCodigo>
+      </CdgItem>
+      <NmbItem>Cajón AFECTO</NmbItem>
+      <DscItem>Cajon AFECTO</DscItem>
+      <QtyItem>117</QtyItem>
+      <PrcItem>572</PrcItem>
+      <MontoItem>66924</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>2</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT</TpoCodigo>
+        <VlrCodigo>6</VlrCodigo>
+      </CdgItem>
+      <NmbItem>Relleno AFECTO</NmbItem>
+      <DscItem>Relleno AFECTO</DscItem>
+      <QtyItem>51</QtyItem>
+      <PrcItem>881</PrcItem>
+      <MontoItem>44931</MontoItem>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>SET</TpoDocRef>
+      <FolioRef>534</FolioRef>
+      <FchRef>2017-09-14</FchRef>
+      <RazonRef>CASO 858496-1</RazonRef>
+    </Referencia>
+    <TED version="1.0">
+      <DD>
+        <RE>76040308-3</RE>
+        <TD>33</TD>
+        <F>534</F>
+        <FE>2017-09-14</FE>
+        <RR>77813960-K</RR>
+        <RSR>AMULEN CONSULTORES LTDA</RSR>
+        <MNT>133107</MNT>
+        <IT1>Cajon AFECTO</IT1>
+        <CAF version="1.0">
+          <DA>
+            <RE>76040308-3</RE>
+            <RS>ESTEBAN GABRIEL GUENUL  ALMONACID SERVIC</RS>
+            <TD>33</TD>
+            <RNG>
+              <D>477</D>
+              <H>596</H>
+            </RNG>
+            <FA>2017-09-07</FA>
+            <RSAPK>
+              <M>q2c8nplk/UdJVDq3pymcTIoptUsLvXVbK/jBnS1DTOHNX9lEDwD7MhWrp+v724vrdXqlhEIUn9CxvMpAOfxaBQ==</M>
+              <E>Aw==</E>
+            </RSAPK>
+            <IDK>100</IDK>
+          </DA>
+          <FRMA algoritmo="SHA1withRSA">Lgmw8sHg3gKPvUYdS5JD5cS6iV2JtsV5uhEFkmVya9rfLkhO5gEfW+T4rVK4tzolUPxaOCVoaYLZuZTMMrfCEg==</FRMA>
+        </CAF>
+        <TSTED>2017-09-14T10:51:32</TSTED>
+      </DD>
+      <FRMT algoritmo="SHA1withRSA">TX0d5LjnwrCqN0tsc0qt4O35uHivmw+W7Hk77cObGPZoZYC0fhqvWnF79xukSHKsvTYovbvULuB5/Ys3o8eljQ==</FRMT>
+    </TED>
+    <TmstFirma>2017-09-14T10:51:32</TmstFirma>
+  </Documento>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+      <Reference URI="#F534T33">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <DigestValue>grNTixSkk9NjMSKEsKnsd/m7V48=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>CxUCOch1P1m5/rSfTP3I4jomHcRLbTSch7SeYtvmax1j/QjmUcOrQ4shYvOxkJF9
+T/vzZ41G8msHe+I2/I2mTJmOFlActLK2bewCgE9O+CuLIUWo/YRR3u0mnrEFw+of
+c8bvFsypBCzMkWQqzar6CAX8bKL/8nRhTOolEi5mv4c=</SignatureValue>
+    <KeyInfo>
+      <KeyValue>
+<RSAKeyValue>
+<Modulus>
+qptCsO2Tvd5oseK7CN/Ogdzi2sE5rVryGp2A755PbxRQDuTNwOg5COuYXg3Z1PKe
+sKlGdX2AcXDgID+tOtR3BXMJdoe0KZaOIBvUPSgPcJoLwitm4OV1xMEk/tMfCWp2
+bqNa9K1KU2pQT3zZ2HkmCTk31497WDCruVMER5nDETk=
+</Modulus>
+<Exponent>
+AQAB
+</Exponent>
+</RSAKeyValue>
+</KeyValue>
+      <X509Data>
+        
+      <X509Certificate>MIIGSDCCBTCgAwIBAgIKf4GtmgAAAAgTXDANBgkqhkiG9w0BAQUFADCB0jELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+aWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQDEydFLUNFUlRDSElMRSBDQSBGSVJN
+QSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEWGHNjbGllbnRlc0Bl
+LWNlcnRjaGlsZS5jbDAeFw0xNzA2MDYyMjMxMjZaFw0yMDA2MDUyMjMxMjZaMIHL
+MQswCQYDVQQGEwJDTDEWMBQGA1UECBMNREUgTE9TIExBR09TIDETMBEGA1UEBxMK
+TGxhbnF1aWh1ZTEkMCIGA1UEChMbQU1VTEVOIENPTlNVTFRPUkVTIExJTUlUQURB
+MRwwGgYDVQQLExNBU0VTT1JJQSBUUklCVVRBUklBMSkwJwYDVQQDEyBFU1RFQkFO
+IEdBQlJJRUwgR1VFTlVMIEFMTU9OQUNJRDEgMB4GCSqGSIb3DQEJARYRZWd1ZW51
+bEBhbXVsZW4uY2wwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKqbQrDtk73e
+aLHiuwjfzoHc4trBOa1a8hqdgO+eT28UUA7kzcDoOQjrmF4N2dTynrCpRnV9gHFw
+4CA/rTrUdwVzCXaHtCmWjiAb1D0oD3CaC8IrZuDldcTBJP7THwlqdm6jWvStSlNq
+UE982dh5Jgk5N9ePe1gwq7lTBEeZwxE5AgMBAAGjggKnMIICozA9BgkrBgEEAYI3
+FQcEMDAuBiYrBgEEAYI3FQiC3IMvhZOMZoXVnReC4twnge/sPGGBmucVhq/gFQIB
+ZAIBBDAdBgNVHQ4EFgQUYSiqdz0DPBA7NXj+vETiBb3UkNUwCwYDVR0PBAQDAgTw
+MB8GA1UdIwQYMBaAFHjhPp/SErN6PI3NMA5Ts0MpB7NVMD4GA1UdHwQ3MDUwM6Ax
+oC+GLWh0dHA6Ly9jcmwuZS1jZXJ0Y2hpbGUuY2wvZWNlcnRjaGlsZWNhRkVTLmNy
+bDA6BggrBgEFBQcBAQQuMCwwKgYIKwYBBQUHMAGGHmh0dHA6Ly9vY3NwLmVjZXJ0
+Y2hpbGUuY2wvb2NzcDAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjEzOTY4NDgx
+LTgwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4MC01MIIBTQYDVR0g
+BIIBRDCCAUAwggE8BggrBgEEAcNSBTCCAS4wLQYIKwYBBQUHAgEWIWh0dHA6Ly93
+d3cuZS1jZXJ0Y2hpbGUuY2wvQ1BTLmh0bTCB/AYIKwYBBQUHAgIwge8egewAQwBl
+AHIAdABpAGYAaQBjAGEAZABvACAARgBpAHIAbQBhACAAUwBpAG0AcABsAGUALgAg
+AEgAYQAgAHMAaQBkAG8AIAB2AGEAbABpAGQAYQBkAG8AIABlAG4AIABmAG8AcgBt
+AGEAIABwAHIAZQBzAGUAbgBjAGkAYQBsACwAIABxAHUAZQBkAGEAbgBkAG8AIABo
+AGEAYgBpAGwAaQB0AGEAZABvACAAZQBsACAAQwBlAHIAdABpAGYAaQBjAGEAZABv
+ACAAcABhAHIAYQAgAHUAcwBvACAAdAByAGkAYgB1AHQAYQByAGkAbzANBgkqhkiG
+9w0BAQUFAAOCAQEAJ7z/S3fw1xA8u4XHHITfsAdB6GgzdD7WYgJWGdUQpNmbMU/c
+uJ05vzQs/sG+q4D3At5/DEoGK7Cq8ycmNeQwABmfu6ZZ8AmXgiJGAvNlsmDkIdVF
+CI3RUvl7AXQAVl5cIGBlpy1b0TYqIv3kKR1i74XWN9cV9kOE8BqhrCJ+aofffJNb
+57YRLVBdTUuu94yQQht51kuHX1jRW5wAlaeCsbifUCMZWDkfQ7msRCl6gsCIzxTL
+zcQ2sIN8s5QVG3mOWjb2gc4q9ue4VwhzIP2p9JFfc7RVn36KmonKuihfIctw2lAp
+ynJNVMyy2q5hyUmKfG45c3raeglDGB8JKVw+dg==</X509Certificate>
+</X509Data>
+    </KeyInfo>
+  </Signature>
+</DTE>
+
+<DTE version="1.0">
+  <Documento ID="F535T33">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>535</Folio>
+        <FchEmis>2017-09-14</FchEmis>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>76040308-3</RUTEmisor>
+        <RznSoc>ESTEBAN GABRIEL GUENUL ALMONACID SERVIC</RznSoc>
+        <GiroEmis>SERVICIOS INFORMATICOS</GiroEmis>
+        <Acteco>726000</Acteco>
+        <CdgSIISucur>1</CdgSIISucur>
+        <DirOrigen>URMENETA 305 OFIC 513</DirOrigen>
+        <CmnaOrigen>PUERTO MONTT</CmnaOrigen>
+        <CiudadOrigen>PUERTO MONTT</CiudadOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>77813960-K</RUTRecep>
+        <RznSocRecep>AMULEN CONSULTORES LTDA</RznSocRecep>
+        <GiroRecep>ASESORIA TRIBUTARIA</GiroRecep>
+        <DirRecep>URMENETA 305 OFIC 513</DirRecep>
+        <CmnaRecep>PUERTO MONTT</CmnaRecep>
+        <CiudadRecep>PUERTO MONTT</CiudadRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>257284</MntNeto>
+        <TasaIVA>19</TasaIVA>
+        <IVA>48884</IVA>
+        <MntTotal>306168</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT</TpoCodigo>
+        <VlrCodigo>10</VlrCodigo>
+      </CdgItem>
+      <NmbItem>Pañuelo AFECTO</NmbItem>
+      <DscItem>Panuelo AFECTO</DscItem>
+      <QtyItem>163</QtyItem>
+      <PrcItem>1386</PrcItem>
+      <DescuentoPct>3</DescuentoPct>
+      <DescuentoMonto>6778</DescuentoMonto>
+      <MontoItem>219140</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>2</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT</TpoCodigo>
+        <VlrCodigo>9</VlrCodigo>
+      </CdgItem>
+      <NmbItem>ITEM 2 AFECTO</NmbItem>
+      <DscItem>ITEM 2 AFECTO</DscItem>
+      <QtyItem>87</QtyItem>
+      <PrcItem>452</PrcItem>
+      <DescuentoPct>3</DescuentoPct>
+      <DescuentoMonto>1180</DescuentoMonto>
+      <MontoItem>38144</MontoItem>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>SET</TpoDocRef>
+      <FolioRef>535</FolioRef>
+      <FchRef>2017-09-14</FchRef>
+      <RazonRef>CASO 858496-2</RazonRef>
+    </Referencia>
+    <TED version="1.0">
+      <DD>
+        <RE>76040308-3</RE>
+        <TD>33</TD>
+        <F>535</F>
+        <FE>2017-09-14</FE>
+        <RR>77813960-K</RR>
+        <RSR>AMULEN CONSULTORES LTDA</RSR>
+        <MNT>306168</MNT>
+        <IT1>Panuelo AFECTO</IT1>
+        <CAF version="1.0">
+          <DA>
+            <RE>76040308-3</RE>
+            <RS>ESTEBAN GABRIEL GUENUL  ALMONACID SERVIC</RS>
+            <TD>33</TD>
+            <RNG>
+              <D>477</D>
+              <H>596</H>
+            </RNG>
+            <FA>2017-09-07</FA>
+            <RSAPK>
+              <M>q2c8nplk/UdJVDq3pymcTIoptUsLvXVbK/jBnS1DTOHNX9lEDwD7MhWrp+v724vrdXqlhEIUn9CxvMpAOfxaBQ==</M>
+              <E>Aw==</E>
+            </RSAPK>
+            <IDK>100</IDK>
+          </DA>
+          <FRMA algoritmo="SHA1withRSA">Lgmw8sHg3gKPvUYdS5JD5cS6iV2JtsV5uhEFkmVya9rfLkhO5gEfW+T4rVK4tzolUPxaOCVoaYLZuZTMMrfCEg==</FRMA>
+        </CAF>
+        <TSTED>2017-09-14T10:55:25</TSTED>
+      </DD>
+      <FRMT algoritmo="SHA1withRSA">EmxE/DyvCb8q1h4wpa3XNi7Ux7J7wPrgdb2wTvjJp3n1XAIaUtlCI7fpUmYYPWH+yGDgNnHJ5Vha4h7tT04tmA==</FRMT>
+    </TED>
+    <TmstFirma>2017-09-14T10:55:25</TmstFirma>
+  </Documento>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+      <Reference URI="#F535T33">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <DigestValue>sB/Ldz1/Rfo3ma2qRnbOPUW4+EI=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>JExI2UQPmW7UAvyq2Fnk41lQ17swnjdaePJTkF5I7dong6VTrRTjG16bAT585OC4
+WkIO91mPs0gkgNKSrmT3PwV+XSEzfn61gsnNrP0wkSjVkJEZcRqKvzLpKgED9IcK
+dcoFacWstqQVXNVw9VVQgNyrjRY05GuE+Jyu1eFrrfk=</SignatureValue>
+    <KeyInfo>
+      <KeyValue>
+<RSAKeyValue>
+<Modulus>
+qptCsO2Tvd5oseK7CN/Ogdzi2sE5rVryGp2A755PbxRQDuTNwOg5COuYXg3Z1PKe
+sKlGdX2AcXDgID+tOtR3BXMJdoe0KZaOIBvUPSgPcJoLwitm4OV1xMEk/tMfCWp2
+bqNa9K1KU2pQT3zZ2HkmCTk31497WDCruVMER5nDETk=
+</Modulus>
+<Exponent>
+AQAB
+</Exponent>
+</RSAKeyValue>
+</KeyValue>
+      <X509Data>
+        
+      <X509Certificate>MIIGSDCCBTCgAwIBAgIKf4GtmgAAAAgTXDANBgkqhkiG9w0BAQUFADCB0jELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+aWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQDEydFLUNFUlRDSElMRSBDQSBGSVJN
+QSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEWGHNjbGllbnRlc0Bl
+LWNlcnRjaGlsZS5jbDAeFw0xNzA2MDYyMjMxMjZaFw0yMDA2MDUyMjMxMjZaMIHL
+MQswCQYDVQQGEwJDTDEWMBQGA1UECBMNREUgTE9TIExBR09TIDETMBEGA1UEBxMK
+TGxhbnF1aWh1ZTEkMCIGA1UEChMbQU1VTEVOIENPTlNVTFRPUkVTIExJTUlUQURB
+MRwwGgYDVQQLExNBU0VTT1JJQSBUUklCVVRBUklBMSkwJwYDVQQDEyBFU1RFQkFO
+IEdBQlJJRUwgR1VFTlVMIEFMTU9OQUNJRDEgMB4GCSqGSIb3DQEJARYRZWd1ZW51
+bEBhbXVsZW4uY2wwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKqbQrDtk73e
+aLHiuwjfzoHc4trBOa1a8hqdgO+eT28UUA7kzcDoOQjrmF4N2dTynrCpRnV9gHFw
+4CA/rTrUdwVzCXaHtCmWjiAb1D0oD3CaC8IrZuDldcTBJP7THwlqdm6jWvStSlNq
+UE982dh5Jgk5N9ePe1gwq7lTBEeZwxE5AgMBAAGjggKnMIICozA9BgkrBgEEAYI3
+FQcEMDAuBiYrBgEEAYI3FQiC3IMvhZOMZoXVnReC4twnge/sPGGBmucVhq/gFQIB
+ZAIBBDAdBgNVHQ4EFgQUYSiqdz0DPBA7NXj+vETiBb3UkNUwCwYDVR0PBAQDAgTw
+MB8GA1UdIwQYMBaAFHjhPp/SErN6PI3NMA5Ts0MpB7NVMD4GA1UdHwQ3MDUwM6Ax
+oC+GLWh0dHA6Ly9jcmwuZS1jZXJ0Y2hpbGUuY2wvZWNlcnRjaGlsZWNhRkVTLmNy
+bDA6BggrBgEFBQcBAQQuMCwwKgYIKwYBBQUHMAGGHmh0dHA6Ly9vY3NwLmVjZXJ0
+Y2hpbGUuY2wvb2NzcDAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjEzOTY4NDgx
+LTgwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4MC01MIIBTQYDVR0g
+BIIBRDCCAUAwggE8BggrBgEEAcNSBTCCAS4wLQYIKwYBBQUHAgEWIWh0dHA6Ly93
+d3cuZS1jZXJ0Y2hpbGUuY2wvQ1BTLmh0bTCB/AYIKwYBBQUHAgIwge8egewAQwBl
+AHIAdABpAGYAaQBjAGEAZABvACAARgBpAHIAbQBhACAAUwBpAG0AcABsAGUALgAg
+AEgAYQAgAHMAaQBkAG8AIAB2AGEAbABpAGQAYQBkAG8AIABlAG4AIABmAG8AcgBt
+AGEAIABwAHIAZQBzAGUAbgBjAGkAYQBsACwAIABxAHUAZQBkAGEAbgBkAG8AIABo
+AGEAYgBpAGwAaQB0AGEAZABvACAAZQBsACAAQwBlAHIAdABpAGYAaQBjAGEAZABv
+ACAAcABhAHIAYQAgAHUAcwBvACAAdAByAGkAYgB1AHQAYQByAGkAbzANBgkqhkiG
+9w0BAQUFAAOCAQEAJ7z/S3fw1xA8u4XHHITfsAdB6GgzdD7WYgJWGdUQpNmbMU/c
+uJ05vzQs/sG+q4D3At5/DEoGK7Cq8ycmNeQwABmfu6ZZ8AmXgiJGAvNlsmDkIdVF
+CI3RUvl7AXQAVl5cIGBlpy1b0TYqIv3kKR1i74XWN9cV9kOE8BqhrCJ+aofffJNb
+57YRLVBdTUuu94yQQht51kuHX1jRW5wAlaeCsbifUCMZWDkfQ7msRCl6gsCIzxTL
+zcQ2sIN8s5QVG3mOWjb2gc4q9ue4VwhzIP2p9JFfc7RVn36KmonKuihfIctw2lAp
+ynJNVMyy2q5hyUmKfG45c3raeglDGB8JKVw+dg==</X509Certificate>
+</X509Data>
+    </KeyInfo>
+  </Signature>
+</DTE>
+
+<DTE version="1.0">
+  <Documento ID="F536T33">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>536</Folio>
+        <FchEmis>2017-09-14</FchEmis>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>76040308-3</RUTEmisor>
+        <RznSoc>ESTEBAN GABRIEL GUENUL ALMONACID SERVIC</RznSoc>
+        <GiroEmis>SERVICIOS INFORMATICOS</GiroEmis>
+        <Acteco>726000</Acteco>
+        <CdgSIISucur>1</CdgSIISucur>
+        <DirOrigen>URMENETA 305 OFIC 513</DirOrigen>
+        <CmnaOrigen>PUERTO MONTT</CmnaOrigen>
+        <CiudadOrigen>PUERTO MONTT</CiudadOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>77813960-K</RUTRecep>
+        <RznSocRecep>AMULEN CONSULTORES LTDA</RznSocRecep>
+        <GiroRecep>ASESORIA TRIBUTARIA</GiroRecep>
+        <DirRecep>URMENETA 305 OFIC 513</DirRecep>
+        <CmnaRecep>PUERTO MONTT</CmnaRecep>
+        <CiudadRecep>PUERTO MONTT</CiudadRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>425147</MntNeto>
+        <MntExe>34624</MntExe>
+        <TasaIVA>19</TasaIVA>
+        <IVA>80778</IVA>
+        <MntTotal>540549</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT</TpoCodigo>
+        <VlrCodigo>8</VlrCodigo>
+      </CdgItem>
+      <NmbItem>Pintura B&amp;W AFECTO</NmbItem>
+      <DscItem>Pintura BANDW AFECTO</DscItem>
+      <QtyItem>23</QtyItem>
+      <PrcItem>1175</PrcItem>
+      <MontoItem>27025</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>2</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT</TpoCodigo>
+        <VlrCodigo>21</VlrCodigo>
+      </CdgItem>
+      <NmbItem>ITEM 2 AFECTO</NmbItem>
+      <DscItem>ITEM 2 AFECTO</DscItem>
+      <QtyItem>137</QtyItem>
+      <PrcItem>2906</PrcItem>
+      <MontoItem>398122</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>3</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT</TpoCodigo>
+        <VlrCodigo>24</VlrCodigo>
+      </CdgItem>
+      <IndExe>1</IndExe>
+      <NmbItem>ITEM 3 SERVICIO EXENTO</NmbItem>
+      <DscItem>ITEM 3 SERVICIO EXENTO</DscItem>
+      <QtyItem>1</QtyItem>
+      <PrcItem>34624</PrcItem>
+      <MontoItem>34624</MontoItem>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>SET</TpoDocRef>
+      <FolioRef>536</FolioRef>
+      <FchRef>2017-09-14</FchRef>
+      <RazonRef>CASO 858496-3</RazonRef>
+    </Referencia>
+    <TED version="1.0">
+      <DD>
+        <RE>76040308-3</RE>
+        <TD>33</TD>
+        <F>536</F>
+        <FE>2017-09-14</FE>
+        <RR>77813960-K</RR>
+        <RSR>AMULEN CONSULTORES LTDA</RSR>
+        <MNT>540549</MNT>
+        <IT1>Pintura BANDW AFECTO</IT1>
+        <CAF version="1.0">
+          <DA>
+            <RE>76040308-3</RE>
+            <RS>ESTEBAN GABRIEL GUENUL  ALMONACID SERVIC</RS>
+            <TD>33</TD>
+            <RNG>
+              <D>477</D>
+              <H>596</H>
+            </RNG>
+            <FA>2017-09-07</FA>
+            <RSAPK>
+              <M>q2c8nplk/UdJVDq3pymcTIoptUsLvXVbK/jBnS1DTOHNX9lEDwD7MhWrp+v724vrdXqlhEIUn9CxvMpAOfxaBQ==</M>
+              <E>Aw==</E>
+            </RSAPK>
+            <IDK>100</IDK>
+          </DA>
+          <FRMA algoritmo="SHA1withRSA">Lgmw8sHg3gKPvUYdS5JD5cS6iV2JtsV5uhEFkmVya9rfLkhO5gEfW+T4rVK4tzolUPxaOCVoaYLZuZTMMrfCEg==</FRMA>
+        </CAF>
+        <TSTED>2017-09-14T10:58:52</TSTED>
+      </DD>
+      <FRMT algoritmo="SHA1withRSA">bUVT/VBwcwTt01WnbPzMgS+KvcwGQrGd4bzZEQBPb31fZkxGOrO6X4S7QcTCk244FqEerR+nAfS/OcspxaNk2w==</FRMT>
+    </TED>
+    <TmstFirma>2017-09-14T10:58:52</TmstFirma>
+  </Documento>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+      <Reference URI="#F536T33">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <DigestValue>coAUShouSgotArY5h38hCB6h9Vs=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>BO9XGd7NS2cR350ItOslVBvpJ9EXBJR7HweY3A4x9eZQz8jC1F1Wy2/atHddOZGX
+ecCzxZ75no3PFhY3KacO2elnVwVluQJxDlCplaUthdx51oNhYyrPsDW5hZSIoVBl
+yWdNnhh5esZZB8LQx8a/WXCMYNrcJJO0Y5EVP80jpfU=</SignatureValue>
+    <KeyInfo>
+      <KeyValue>
+<RSAKeyValue>
+<Modulus>
+qptCsO2Tvd5oseK7CN/Ogdzi2sE5rVryGp2A755PbxRQDuTNwOg5COuYXg3Z1PKe
+sKlGdX2AcXDgID+tOtR3BXMJdoe0KZaOIBvUPSgPcJoLwitm4OV1xMEk/tMfCWp2
+bqNa9K1KU2pQT3zZ2HkmCTk31497WDCruVMER5nDETk=
+</Modulus>
+<Exponent>
+AQAB
+</Exponent>
+</RSAKeyValue>
+</KeyValue>
+      <X509Data>
+        
+      <X509Certificate>MIIGSDCCBTCgAwIBAgIKf4GtmgAAAAgTXDANBgkqhkiG9w0BAQUFADCB0jELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+aWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQDEydFLUNFUlRDSElMRSBDQSBGSVJN
+QSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEWGHNjbGllbnRlc0Bl
+LWNlcnRjaGlsZS5jbDAeFw0xNzA2MDYyMjMxMjZaFw0yMDA2MDUyMjMxMjZaMIHL
+MQswCQYDVQQGEwJDTDEWMBQGA1UECBMNREUgTE9TIExBR09TIDETMBEGA1UEBxMK
+TGxhbnF1aWh1ZTEkMCIGA1UEChMbQU1VTEVOIENPTlNVTFRPUkVTIExJTUlUQURB
+MRwwGgYDVQQLExNBU0VTT1JJQSBUUklCVVRBUklBMSkwJwYDVQQDEyBFU1RFQkFO
+IEdBQlJJRUwgR1VFTlVMIEFMTU9OQUNJRDEgMB4GCSqGSIb3DQEJARYRZWd1ZW51
+bEBhbXVsZW4uY2wwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKqbQrDtk73e
+aLHiuwjfzoHc4trBOa1a8hqdgO+eT28UUA7kzcDoOQjrmF4N2dTynrCpRnV9gHFw
+4CA/rTrUdwVzCXaHtCmWjiAb1D0oD3CaC8IrZuDldcTBJP7THwlqdm6jWvStSlNq
+UE982dh5Jgk5N9ePe1gwq7lTBEeZwxE5AgMBAAGjggKnMIICozA9BgkrBgEEAYI3
+FQcEMDAuBiYrBgEEAYI3FQiC3IMvhZOMZoXVnReC4twnge/sPGGBmucVhq/gFQIB
+ZAIBBDAdBgNVHQ4EFgQUYSiqdz0DPBA7NXj+vETiBb3UkNUwCwYDVR0PBAQDAgTw
+MB8GA1UdIwQYMBaAFHjhPp/SErN6PI3NMA5Ts0MpB7NVMD4GA1UdHwQ3MDUwM6Ax
+oC+GLWh0dHA6Ly9jcmwuZS1jZXJ0Y2hpbGUuY2wvZWNlcnRjaGlsZWNhRkVTLmNy
+bDA6BggrBgEFBQcBAQQuMCwwKgYIKwYBBQUHMAGGHmh0dHA6Ly9vY3NwLmVjZXJ0
+Y2hpbGUuY2wvb2NzcDAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjEzOTY4NDgx
+LTgwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4MC01MIIBTQYDVR0g
+BIIBRDCCAUAwggE8BggrBgEEAcNSBTCCAS4wLQYIKwYBBQUHAgEWIWh0dHA6Ly93
+d3cuZS1jZXJ0Y2hpbGUuY2wvQ1BTLmh0bTCB/AYIKwYBBQUHAgIwge8egewAQwBl
+AHIAdABpAGYAaQBjAGEAZABvACAARgBpAHIAbQBhACAAUwBpAG0AcABsAGUALgAg
+AEgAYQAgAHMAaQBkAG8AIAB2AGEAbABpAGQAYQBkAG8AIABlAG4AIABmAG8AcgBt
+AGEAIABwAHIAZQBzAGUAbgBjAGkAYQBsACwAIABxAHUAZQBkAGEAbgBkAG8AIABo
+AGEAYgBpAGwAaQB0AGEAZABvACAAZQBsACAAQwBlAHIAdABpAGYAaQBjAGEAZABv
+ACAAcABhAHIAYQAgAHUAcwBvACAAdAByAGkAYgB1AHQAYQByAGkAbzANBgkqhkiG
+9w0BAQUFAAOCAQEAJ7z/S3fw1xA8u4XHHITfsAdB6GgzdD7WYgJWGdUQpNmbMU/c
+uJ05vzQs/sG+q4D3At5/DEoGK7Cq8ycmNeQwABmfu6ZZ8AmXgiJGAvNlsmDkIdVF
+CI3RUvl7AXQAVl5cIGBlpy1b0TYqIv3kKR1i74XWN9cV9kOE8BqhrCJ+aofffJNb
+57YRLVBdTUuu94yQQht51kuHX1jRW5wAlaeCsbifUCMZWDkfQ7msRCl6gsCIzxTL
+zcQ2sIN8s5QVG3mOWjb2gc4q9ue4VwhzIP2p9JFfc7RVn36KmonKuihfIctw2lAp
+ynJNVMyy2q5hyUmKfG45c3raeglDGB8JKVw+dg==</X509Certificate>
+</X509Data>
+    </KeyInfo>
+  </Signature>
+</DTE>
+
+<DTE version="1.0">
+  <Documento ID="F537T33">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>537</Folio>
+        <FchEmis>2017-09-14</FchEmis>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>76040308-3</RUTEmisor>
+        <RznSoc>ESTEBAN GABRIEL GUENUL ALMONACID SERVIC</RznSoc>
+        <GiroEmis>SERVICIOS INFORMATICOS</GiroEmis>
+        <Acteco>726000</Acteco>
+        <CdgSIISucur>1</CdgSIISucur>
+        <DirOrigen>URMENETA 305 OFIC 513</DirOrigen>
+        <CmnaOrigen>PUERTO MONTT</CmnaOrigen>
+        <CiudadOrigen>PUERTO MONTT</CiudadOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>77813960-K</RUTRecep>
+        <RznSocRecep>AMULEN CONSULTORES LTDA</RznSocRecep>
+        <GiroRecep>ASESORIA TRIBUTARIA</GiroRecep>
+        <DirRecep>URMENETA 305 OFIC 513</DirRecep>
+        <CmnaRecep>PUERTO MONTT</CmnaRecep>
+        <CiudadRecep>PUERTO MONTT</CiudadRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>47140</MntNeto>
+        <MntExe>13516</MntExe>
+        <TasaIVA>19</TasaIVA>
+        <IVA>8957</IVA>
+        <MntTotal>69613</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT</TpoCodigo>
+        <VlrCodigo>17</VlrCodigo>
+      </CdgItem>
+      <NmbItem>ITEM 1 AFECTO</NmbItem>
+      <DscItem>ITEM 1 AFECTO</DscItem>
+      <QtyItem>36</QtyItem>
+      <PrcItem>1092</PrcItem>
+      <MontoItem>39312</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>2</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT</TpoCodigo>
+        <VlrCodigo>18</VlrCodigo>
+      </CdgItem>
+      <NmbItem>ITEM 2 AFECTO</NmbItem>
+      <DscItem>ITEM 2 AFECTO</DscItem>
+      <QtyItem>16</QtyItem>
+      <PrcItem>612</PrcItem>
+      <MontoItem>9792</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>3</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT</TpoCodigo>
+        <VlrCodigo>22</VlrCodigo>
+      </CdgItem>
+      <IndExe>1</IndExe>
+      <NmbItem>ITEM 3 SERVICIO EXENTO</NmbItem>
+      <DscItem>ITEM 3 SERVICIO EXENTO</DscItem>
+      <QtyItem>2</QtyItem>
+      <PrcItem>6758</PrcItem>
+      <MontoItem>13516</MontoItem>
+    </Detalle>
+    <DscRcgGlobal>
+      <NroLinDR>1</NroLinDR>
+      <TpoMov>D</TpoMov>
+      <GlosaDR>DESCUENTO</GlosaDR>
+      <TpoValor>%</TpoValor>
+      <ValorDR>4</ValorDR>
+    </DscRcgGlobal>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>SET</TpoDocRef>
+      <FolioRef>537</FolioRef>
+      <FchRef>2017-09-14</FchRef>
+      <RazonRef>CASO 858496-4</RazonRef>
+    </Referencia>
+    <TED version="1.0">
+      <DD>
+        <RE>76040308-3</RE>
+        <TD>33</TD>
+        <F>537</F>
+        <FE>2017-09-14</FE>
+        <RR>77813960-K</RR>
+        <RSR>AMULEN CONSULTORES LTDA</RSR>
+        <MNT>69613</MNT>
+        <IT1>ITEM 1 AFECTO</IT1>
+        <CAF version="1.0">
+          <DA>
+            <RE>76040308-3</RE>
+            <RS>ESTEBAN GABRIEL GUENUL  ALMONACID SERVIC</RS>
+            <TD>33</TD>
+            <RNG>
+              <D>477</D>
+              <H>596</H>
+            </RNG>
+            <FA>2017-09-07</FA>
+            <RSAPK>
+              <M>q2c8nplk/UdJVDq3pymcTIoptUsLvXVbK/jBnS1DTOHNX9lEDwD7MhWrp+v724vrdXqlhEIUn9CxvMpAOfxaBQ==</M>
+              <E>Aw==</E>
+            </RSAPK>
+            <IDK>100</IDK>
+          </DA>
+          <FRMA algoritmo="SHA1withRSA">Lgmw8sHg3gKPvUYdS5JD5cS6iV2JtsV5uhEFkmVya9rfLkhO5gEfW+T4rVK4tzolUPxaOCVoaYLZuZTMMrfCEg==</FRMA>
+        </CAF>
+        <TSTED>2017-09-14T11:02:42</TSTED>
+      </DD>
+      <FRMT algoritmo="SHA1withRSA">Wrrlcg75W9UnuccQwwHmOHkGguLE6Xfp3Sz4SugQJXgsiRFQuC2EAUwCrhXvrzlHC67iB64E/dBWVyeGFZ69Zg==</FRMT>
+    </TED>
+    <TmstFirma>2017-09-14T11:02:42</TmstFirma>
+  </Documento>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+      <Reference URI="#F537T33">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <DigestValue>i605S/G1f/qZbJpiR8zkTZSiMDo=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>kB+28T5WCX2rfn24/TZRLrJHBUErlJgAGJdLMBtDjGbYgo8iXebFVLb0AATu6rY9
+7Cs9J5r+M1ABv/QK8u0UxKXyjl4Ey8DcdsBV0UI2cJQG5c/rJQK70IS8dvdboF5d
+qSqvSMROB10GI/qo0TuAZ6rhKODzwm353Ycq9k/16hk=</SignatureValue>
+    <KeyInfo>
+      <KeyValue>
+<RSAKeyValue>
+<Modulus>
+qptCsO2Tvd5oseK7CN/Ogdzi2sE5rVryGp2A755PbxRQDuTNwOg5COuYXg3Z1PKe
+sKlGdX2AcXDgID+tOtR3BXMJdoe0KZaOIBvUPSgPcJoLwitm4OV1xMEk/tMfCWp2
+bqNa9K1KU2pQT3zZ2HkmCTk31497WDCruVMER5nDETk=
+</Modulus>
+<Exponent>
+AQAB
+</Exponent>
+</RSAKeyValue>
+</KeyValue>
+      <X509Data>
+        
+      <X509Certificate>MIIGSDCCBTCgAwIBAgIKf4GtmgAAAAgTXDANBgkqhkiG9w0BAQUFADCB0jELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+aWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQDEydFLUNFUlRDSElMRSBDQSBGSVJN
+QSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEWGHNjbGllbnRlc0Bl
+LWNlcnRjaGlsZS5jbDAeFw0xNzA2MDYyMjMxMjZaFw0yMDA2MDUyMjMxMjZaMIHL
+MQswCQYDVQQGEwJDTDEWMBQGA1UECBMNREUgTE9TIExBR09TIDETMBEGA1UEBxMK
+TGxhbnF1aWh1ZTEkMCIGA1UEChMbQU1VTEVOIENPTlNVTFRPUkVTIExJTUlUQURB
+MRwwGgYDVQQLExNBU0VTT1JJQSBUUklCVVRBUklBMSkwJwYDVQQDEyBFU1RFQkFO
+IEdBQlJJRUwgR1VFTlVMIEFMTU9OQUNJRDEgMB4GCSqGSIb3DQEJARYRZWd1ZW51
+bEBhbXVsZW4uY2wwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKqbQrDtk73e
+aLHiuwjfzoHc4trBOa1a8hqdgO+eT28UUA7kzcDoOQjrmF4N2dTynrCpRnV9gHFw
+4CA/rTrUdwVzCXaHtCmWjiAb1D0oD3CaC8IrZuDldcTBJP7THwlqdm6jWvStSlNq
+UE982dh5Jgk5N9ePe1gwq7lTBEeZwxE5AgMBAAGjggKnMIICozA9BgkrBgEEAYI3
+FQcEMDAuBiYrBgEEAYI3FQiC3IMvhZOMZoXVnReC4twnge/sPGGBmucVhq/gFQIB
+ZAIBBDAdBgNVHQ4EFgQUYSiqdz0DPBA7NXj+vETiBb3UkNUwCwYDVR0PBAQDAgTw
+MB8GA1UdIwQYMBaAFHjhPp/SErN6PI3NMA5Ts0MpB7NVMD4GA1UdHwQ3MDUwM6Ax
+oC+GLWh0dHA6Ly9jcmwuZS1jZXJ0Y2hpbGUuY2wvZWNlcnRjaGlsZWNhRkVTLmNy
+bDA6BggrBgEFBQcBAQQuMCwwKgYIKwYBBQUHMAGGHmh0dHA6Ly9vY3NwLmVjZXJ0
+Y2hpbGUuY2wvb2NzcDAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjEzOTY4NDgx
+LTgwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4MC01MIIBTQYDVR0g
+BIIBRDCCAUAwggE8BggrBgEEAcNSBTCCAS4wLQYIKwYBBQUHAgEWIWh0dHA6Ly93
+d3cuZS1jZXJ0Y2hpbGUuY2wvQ1BTLmh0bTCB/AYIKwYBBQUHAgIwge8egewAQwBl
+AHIAdABpAGYAaQBjAGEAZABvACAARgBpAHIAbQBhACAAUwBpAG0AcABsAGUALgAg
+AEgAYQAgAHMAaQBkAG8AIAB2AGEAbABpAGQAYQBkAG8AIABlAG4AIABmAG8AcgBt
+AGEAIABwAHIAZQBzAGUAbgBjAGkAYQBsACwAIABxAHUAZQBkAGEAbgBkAG8AIABo
+AGEAYgBpAGwAaQB0AGEAZABvACAAZQBsACAAQwBlAHIAdABpAGYAaQBjAGEAZABv
+ACAAcABhAHIAYQAgAHUAcwBvACAAdAByAGkAYgB1AHQAYQByAGkAbzANBgkqhkiG
+9w0BAQUFAAOCAQEAJ7z/S3fw1xA8u4XHHITfsAdB6GgzdD7WYgJWGdUQpNmbMU/c
+uJ05vzQs/sG+q4D3At5/DEoGK7Cq8ycmNeQwABmfu6ZZ8AmXgiJGAvNlsmDkIdVF
+CI3RUvl7AXQAVl5cIGBlpy1b0TYqIv3kKR1i74XWN9cV9kOE8BqhrCJ+aofffJNb
+57YRLVBdTUuu94yQQht51kuHX1jRW5wAlaeCsbifUCMZWDkfQ7msRCl6gsCIzxTL
+zcQ2sIN8s5QVG3mOWjb2gc4q9ue4VwhzIP2p9JFfc7RVn36KmonKuihfIctw2lAp
+ynJNVMyy2q5hyUmKfG45c3raeglDGB8JKVw+dg==</X509Certificate>
+</X509Data>
+    </KeyInfo>
+  </Signature>
+</DTE>
+
+<DTE version="1.0">
+  <Documento ID="F145T61">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>61</TipoDTE>
+        <Folio>145</Folio>
+        <FchEmis>2017-09-14</FchEmis>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>76040308-3</RUTEmisor>
+        <RznSoc>ESTEBAN GABRIEL GUENUL ALMONACID SERVIC</RznSoc>
+        <GiroEmis>SERVICIOS INFORMATICOS</GiroEmis>
+        <Acteco>726000</Acteco>
+        <CdgSIISucur>1</CdgSIISucur>
+        <DirOrigen>URMENETA 305 OFIC 513</DirOrigen>
+        <CmnaOrigen>PUERTO MONTT</CmnaOrigen>
+        <CiudadOrigen>PUERTO MONTT</CiudadOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>77813960-K</RUTRecep>
+        <RznSocRecep>AMULEN CONSULTORES LTDA</RznSocRecep>
+        <GiroRecep>ASESORIA TRIBUTARIA</GiroRecep>
+        <DirRecep>URMENETA 305 OFIC 513</DirRecep>
+        <CmnaRecep>PUERTO MONTT</CmnaRecep>
+        <CiudadRecep>PUERTO MONTT</CiudadRecep>
+      </Receptor>
+      <Totales>
+        <MntTotal>0</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT</TpoCodigo>
+        <VlrCodigo>19</VlrCodigo>
+      </CdgItem>
+      <NmbItem>CORRIGE TEXTO</NmbItem>
+      <DscItem>CORRIGE TEXTO</DscItem>
+      <MontoItem>0</MontoItem>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>SET</TpoDocRef>
+      <FolioRef>145</FolioRef>
+      <FchRef>2017-09-14</FchRef>
+      <RazonRef>CASO 858496-5</RazonRef>
+    </Referencia>
+    <Referencia>
+      <NroLinRef>2</NroLinRef>
+      <TpoDocRef>33</TpoDocRef>
+      <FolioRef>534</FolioRef>
+      <FchRef>2017-09-14</FchRef>
+      <CodRef>2</CodRef>
+      <RazonRef>CORRIGE GIRO DEL RECEPTOR</RazonRef>
+    </Referencia>
+    <TED version="1.0">
+      <DD>
+        <RE>76040308-3</RE>
+        <TD>61</TD>
+        <F>145</F>
+        <FE>2017-09-14</FE>
+        <RR>77813960-K</RR>
+        <RSR>AMULEN CONSULTORES LTDA</RSR>
+        <MNT>0</MNT>
+        <IT1>CORRIGE TEXTO</IT1>
+        <CAF version="1.0">
+          <DA>
+            <RE>76040308-3</RE>
+            <RS>ESTEBAN GABRIEL GUENUL  ALMONACID SERVIC</RS>
+            <TD>61</TD>
+            <RNG>
+              <D>145</D>
+              <H>188</H>
+            </RNG>
+            <FA>2017-09-14</FA>
+            <RSAPK>
+              <M>73PSYcUy2HfMkrDxE7BkjH2UD4b2JO4TG9ZWLzErzXdJ9pnmUXJTFZ1dm/MIuhEl8RzIsTwDuMo/kfCRBinGkw==</M>
+              <E>Aw==</E>
+            </RSAPK>
+            <IDK>100</IDK>
+          </DA>
+          <FRMA algoritmo="SHA1withRSA">TML2nUy8J8Ohe3urkpsg0koC8f8LmrsXWDuuFkhgo5yg32sdP1Vas1+MceZbY7U8RrazgNewtxmkO9q0+YH+/A==</FRMA>
+        </CAF>
+        <TSTED>2017-09-14T11:07:45</TSTED>
+      </DD>
+      <FRMT algoritmo="SHA1withRSA">zBEeywW6pvODMH6EWf+W9bQ7hkYrREjXtaWsmQeIdLTf2BW1KkDpld/iFTfVk6MsQCjJsk4+1hnVOToed6XtsA==</FRMT>
+    </TED>
+    <TmstFirma>2017-09-14T11:07:45</TmstFirma>
+  </Documento>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+      <Reference URI="#F145T61">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <DigestValue>XFe2FfI2CwgreSOIIHLu5qLzB7E=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>KDZD72iOPNvNLSSoR9JJq/zlxRkpJzIhFY71A4yRb0UTOFj3CmrJL0o+EU4jAo46
+tpuaPGzv2LNUo9cWfl5WIbMtOpKlGr0Rxq4g+zjcvMihS4oVK6zxrOhQE5gxHJ3q
+/Fok/3JJCdm3DB+TWoWtXJq2lP0t9Q6ak9e8qryVKjw=</SignatureValue>
+    <KeyInfo>
+      <KeyValue>
+<RSAKeyValue>
+<Modulus>
+qptCsO2Tvd5oseK7CN/Ogdzi2sE5rVryGp2A755PbxRQDuTNwOg5COuYXg3Z1PKe
+sKlGdX2AcXDgID+tOtR3BXMJdoe0KZaOIBvUPSgPcJoLwitm4OV1xMEk/tMfCWp2
+bqNa9K1KU2pQT3zZ2HkmCTk31497WDCruVMER5nDETk=
+</Modulus>
+<Exponent>
+AQAB
+</Exponent>
+</RSAKeyValue>
+</KeyValue>
+      <X509Data>
+        
+      <X509Certificate>MIIGSDCCBTCgAwIBAgIKf4GtmgAAAAgTXDANBgkqhkiG9w0BAQUFADCB0jELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+aWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQDEydFLUNFUlRDSElMRSBDQSBGSVJN
+QSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEWGHNjbGllbnRlc0Bl
+LWNlcnRjaGlsZS5jbDAeFw0xNzA2MDYyMjMxMjZaFw0yMDA2MDUyMjMxMjZaMIHL
+MQswCQYDVQQGEwJDTDEWMBQGA1UECBMNREUgTE9TIExBR09TIDETMBEGA1UEBxMK
+TGxhbnF1aWh1ZTEkMCIGA1UEChMbQU1VTEVOIENPTlNVTFRPUkVTIExJTUlUQURB
+MRwwGgYDVQQLExNBU0VTT1JJQSBUUklCVVRBUklBMSkwJwYDVQQDEyBFU1RFQkFO
+IEdBQlJJRUwgR1VFTlVMIEFMTU9OQUNJRDEgMB4GCSqGSIb3DQEJARYRZWd1ZW51
+bEBhbXVsZW4uY2wwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKqbQrDtk73e
+aLHiuwjfzoHc4trBOa1a8hqdgO+eT28UUA7kzcDoOQjrmF4N2dTynrCpRnV9gHFw
+4CA/rTrUdwVzCXaHtCmWjiAb1D0oD3CaC8IrZuDldcTBJP7THwlqdm6jWvStSlNq
+UE982dh5Jgk5N9ePe1gwq7lTBEeZwxE5AgMBAAGjggKnMIICozA9BgkrBgEEAYI3
+FQcEMDAuBiYrBgEEAYI3FQiC3IMvhZOMZoXVnReC4twnge/sPGGBmucVhq/gFQIB
+ZAIBBDAdBgNVHQ4EFgQUYSiqdz0DPBA7NXj+vETiBb3UkNUwCwYDVR0PBAQDAgTw
+MB8GA1UdIwQYMBaAFHjhPp/SErN6PI3NMA5Ts0MpB7NVMD4GA1UdHwQ3MDUwM6Ax
+oC+GLWh0dHA6Ly9jcmwuZS1jZXJ0Y2hpbGUuY2wvZWNlcnRjaGlsZWNhRkVTLmNy
+bDA6BggrBgEFBQcBAQQuMCwwKgYIKwYBBQUHMAGGHmh0dHA6Ly9vY3NwLmVjZXJ0
+Y2hpbGUuY2wvb2NzcDAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjEzOTY4NDgx
+LTgwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4MC01MIIBTQYDVR0g
+BIIBRDCCAUAwggE8BggrBgEEAcNSBTCCAS4wLQYIKwYBBQUHAgEWIWh0dHA6Ly93
+d3cuZS1jZXJ0Y2hpbGUuY2wvQ1BTLmh0bTCB/AYIKwYBBQUHAgIwge8egewAQwBl
+AHIAdABpAGYAaQBjAGEAZABvACAARgBpAHIAbQBhACAAUwBpAG0AcABsAGUALgAg
+AEgAYQAgAHMAaQBkAG8AIAB2AGEAbABpAGQAYQBkAG8AIABlAG4AIABmAG8AcgBt
+AGEAIABwAHIAZQBzAGUAbgBjAGkAYQBsACwAIABxAHUAZQBkAGEAbgBkAG8AIABo
+AGEAYgBpAGwAaQB0AGEAZABvACAAZQBsACAAQwBlAHIAdABpAGYAaQBjAGEAZABv
+ACAAcABhAHIAYQAgAHUAcwBvACAAdAByAGkAYgB1AHQAYQByAGkAbzANBgkqhkiG
+9w0BAQUFAAOCAQEAJ7z/S3fw1xA8u4XHHITfsAdB6GgzdD7WYgJWGdUQpNmbMU/c
+uJ05vzQs/sG+q4D3At5/DEoGK7Cq8ycmNeQwABmfu6ZZ8AmXgiJGAvNlsmDkIdVF
+CI3RUvl7AXQAVl5cIGBlpy1b0TYqIv3kKR1i74XWN9cV9kOE8BqhrCJ+aofffJNb
+57YRLVBdTUuu94yQQht51kuHX1jRW5wAlaeCsbifUCMZWDkfQ7msRCl6gsCIzxTL
+zcQ2sIN8s5QVG3mOWjb2gc4q9ue4VwhzIP2p9JFfc7RVn36KmonKuihfIctw2lAp
+ynJNVMyy2q5hyUmKfG45c3raeglDGB8JKVw+dg==</X509Certificate>
+</X509Data>
+    </KeyInfo>
+  </Signature>
+</DTE>
+
+<DTE version="1.0">
+  <Documento ID="F146T61">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>61</TipoDTE>
+        <Folio>146</Folio>
+        <FchEmis>2017-09-14</FchEmis>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>76040308-3</RUTEmisor>
+        <RznSoc>ESTEBAN GABRIEL GUENUL ALMONACID SERVIC</RznSoc>
+        <GiroEmis>SERVICIOS INFORMATICOS</GiroEmis>
+        <Acteco>726000</Acteco>
+        <CdgSIISucur>1</CdgSIISucur>
+        <DirOrigen>URMENETA 305 OFIC 513</DirOrigen>
+        <CmnaOrigen>PUERTO MONTT</CmnaOrigen>
+        <CiudadOrigen>PUERTO MONTT</CiudadOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>77813960-K</RUTRecep>
+        <RznSocRecep>AMULEN CONSULTORES LTDA</RznSocRecep>
+        <GiroRecep>ASESORIA TRIBUTARIA</GiroRecep>
+        <DirRecep>URMENETA 305 OFIC 513</DirRecep>
+        <CmnaRecep>PUERTO MONTT</CmnaRecep>
+        <CiudadRecep>PUERTO MONTT</CiudadRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>106533</MntNeto>
+        <TasaIVA>19</TasaIVA>
+        <IVA>20241</IVA>
+        <MntTotal>126774</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT</TpoCodigo>
+        <VlrCodigo>10</VlrCodigo>
+      </CdgItem>
+      <NmbItem>Pañuelo AFECTO</NmbItem>
+      <DscItem>Panuelo AFECTO</DscItem>
+      <QtyItem>60</QtyItem>
+      <PrcItem>1386</PrcItem>
+      <DescuentoPct>3</DescuentoPct>
+      <DescuentoMonto>2495</DescuentoMonto>
+      <MontoItem>80665</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>2</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT</TpoCodigo>
+        <VlrCodigo>9</VlrCodigo>
+      </CdgItem>
+      <NmbItem>ITEM 2 AFECTO</NmbItem>
+      <DscItem>ITEM 2 AFECTO</DscItem>
+      <QtyItem>59</QtyItem>
+      <PrcItem>452</PrcItem>
+      <DescuentoPct>3</DescuentoPct>
+      <DescuentoMonto>800</DescuentoMonto>
+      <MontoItem>25868</MontoItem>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>SET</TpoDocRef>
+      <FolioRef>146</FolioRef>
+      <FchRef>2017-09-14</FchRef>
+      <RazonRef>CASO 858496-6</RazonRef>
+    </Referencia>
+    <Referencia>
+      <NroLinRef>2</NroLinRef>
+      <TpoDocRef>33</TpoDocRef>
+      <FolioRef>535</FolioRef>
+      <FchRef>2017-09-14</FchRef>
+      <CodRef>3</CodRef>
+      <RazonRef>DEVOLUCION DE MERCADERIAS</RazonRef>
+    </Referencia>
+    <TED version="1.0">
+      <DD>
+        <RE>76040308-3</RE>
+        <TD>61</TD>
+        <F>146</F>
+        <FE>2017-09-14</FE>
+        <RR>77813960-K</RR>
+        <RSR>AMULEN CONSULTORES LTDA</RSR>
+        <MNT>126774</MNT>
+        <IT1>Panuelo AFECTO</IT1>
+        <CAF version="1.0">
+          <DA>
+            <RE>76040308-3</RE>
+            <RS>ESTEBAN GABRIEL GUENUL  ALMONACID SERVIC</RS>
+            <TD>61</TD>
+            <RNG>
+              <D>145</D>
+              <H>188</H>
+            </RNG>
+            <FA>2017-09-14</FA>
+            <RSAPK>
+              <M>73PSYcUy2HfMkrDxE7BkjH2UD4b2JO4TG9ZWLzErzXdJ9pnmUXJTFZ1dm/MIuhEl8RzIsTwDuMo/kfCRBinGkw==</M>
+              <E>Aw==</E>
+            </RSAPK>
+            <IDK>100</IDK>
+          </DA>
+          <FRMA algoritmo="SHA1withRSA">TML2nUy8J8Ohe3urkpsg0koC8f8LmrsXWDuuFkhgo5yg32sdP1Vas1+MceZbY7U8RrazgNewtxmkO9q0+YH+/A==</FRMA>
+        </CAF>
+        <TSTED>2017-09-14T11:13:49</TSTED>
+      </DD>
+      <FRMT algoritmo="SHA1withRSA">jEECOwsYB65mT169VFMQ83yXQH5luve9P18M2CP0hopyf3WG/DTnTWXEJHLFLdWD+Hgttr4M3wpz1OuG7nnP9Q==</FRMT>
+    </TED>
+    <TmstFirma>2017-09-14T11:13:49</TmstFirma>
+  </Documento>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+      <Reference URI="#F146T61">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <DigestValue>ULcxAdlaaWBv3/YzbfQAwGc/Sog=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>mqsokSW2qMHrexUo7BGJUFvfRrNj+yMrtv/O3PKSjIVZJMmXXch/3t25pxEixToU
+UgpSnqdVhnLClL+Fh0jfUCXHCifFNY2kkYSzu+ZwhPdQ5NNOvNW6EIu/Sa/0qnc+
+GAyLxrh7nVrIHJViC1umOlCwnuidUw7A0sJr2GZHbpI=</SignatureValue>
+    <KeyInfo>
+      <KeyValue>
+<RSAKeyValue>
+<Modulus>
+qptCsO2Tvd5oseK7CN/Ogdzi2sE5rVryGp2A755PbxRQDuTNwOg5COuYXg3Z1PKe
+sKlGdX2AcXDgID+tOtR3BXMJdoe0KZaOIBvUPSgPcJoLwitm4OV1xMEk/tMfCWp2
+bqNa9K1KU2pQT3zZ2HkmCTk31497WDCruVMER5nDETk=
+</Modulus>
+<Exponent>
+AQAB
+</Exponent>
+</RSAKeyValue>
+</KeyValue>
+      <X509Data>
+        
+      <X509Certificate>MIIGSDCCBTCgAwIBAgIKf4GtmgAAAAgTXDANBgkqhkiG9w0BAQUFADCB0jELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+aWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQDEydFLUNFUlRDSElMRSBDQSBGSVJN
+QSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEWGHNjbGllbnRlc0Bl
+LWNlcnRjaGlsZS5jbDAeFw0xNzA2MDYyMjMxMjZaFw0yMDA2MDUyMjMxMjZaMIHL
+MQswCQYDVQQGEwJDTDEWMBQGA1UECBMNREUgTE9TIExBR09TIDETMBEGA1UEBxMK
+TGxhbnF1aWh1ZTEkMCIGA1UEChMbQU1VTEVOIENPTlNVTFRPUkVTIExJTUlUQURB
+MRwwGgYDVQQLExNBU0VTT1JJQSBUUklCVVRBUklBMSkwJwYDVQQDEyBFU1RFQkFO
+IEdBQlJJRUwgR1VFTlVMIEFMTU9OQUNJRDEgMB4GCSqGSIb3DQEJARYRZWd1ZW51
+bEBhbXVsZW4uY2wwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKqbQrDtk73e
+aLHiuwjfzoHc4trBOa1a8hqdgO+eT28UUA7kzcDoOQjrmF4N2dTynrCpRnV9gHFw
+4CA/rTrUdwVzCXaHtCmWjiAb1D0oD3CaC8IrZuDldcTBJP7THwlqdm6jWvStSlNq
+UE982dh5Jgk5N9ePe1gwq7lTBEeZwxE5AgMBAAGjggKnMIICozA9BgkrBgEEAYI3
+FQcEMDAuBiYrBgEEAYI3FQiC3IMvhZOMZoXVnReC4twnge/sPGGBmucVhq/gFQIB
+ZAIBBDAdBgNVHQ4EFgQUYSiqdz0DPBA7NXj+vETiBb3UkNUwCwYDVR0PBAQDAgTw
+MB8GA1UdIwQYMBaAFHjhPp/SErN6PI3NMA5Ts0MpB7NVMD4GA1UdHwQ3MDUwM6Ax
+oC+GLWh0dHA6Ly9jcmwuZS1jZXJ0Y2hpbGUuY2wvZWNlcnRjaGlsZWNhRkVTLmNy
+bDA6BggrBgEFBQcBAQQuMCwwKgYIKwYBBQUHMAGGHmh0dHA6Ly9vY3NwLmVjZXJ0
+Y2hpbGUuY2wvb2NzcDAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjEzOTY4NDgx
+LTgwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4MC01MIIBTQYDVR0g
+BIIBRDCCAUAwggE8BggrBgEEAcNSBTCCAS4wLQYIKwYBBQUHAgEWIWh0dHA6Ly93
+d3cuZS1jZXJ0Y2hpbGUuY2wvQ1BTLmh0bTCB/AYIKwYBBQUHAgIwge8egewAQwBl
+AHIAdABpAGYAaQBjAGEAZABvACAARgBpAHIAbQBhACAAUwBpAG0AcABsAGUALgAg
+AEgAYQAgAHMAaQBkAG8AIAB2AGEAbABpAGQAYQBkAG8AIABlAG4AIABmAG8AcgBt
+AGEAIABwAHIAZQBzAGUAbgBjAGkAYQBsACwAIABxAHUAZQBkAGEAbgBkAG8AIABo
+AGEAYgBpAGwAaQB0AGEAZABvACAAZQBsACAAQwBlAHIAdABpAGYAaQBjAGEAZABv
+ACAAcABhAHIAYQAgAHUAcwBvACAAdAByAGkAYgB1AHQAYQByAGkAbzANBgkqhkiG
+9w0BAQUFAAOCAQEAJ7z/S3fw1xA8u4XHHITfsAdB6GgzdD7WYgJWGdUQpNmbMU/c
+uJ05vzQs/sG+q4D3At5/DEoGK7Cq8ycmNeQwABmfu6ZZ8AmXgiJGAvNlsmDkIdVF
+CI3RUvl7AXQAVl5cIGBlpy1b0TYqIv3kKR1i74XWN9cV9kOE8BqhrCJ+aofffJNb
+57YRLVBdTUuu94yQQht51kuHX1jRW5wAlaeCsbifUCMZWDkfQ7msRCl6gsCIzxTL
+zcQ2sIN8s5QVG3mOWjb2gc4q9ue4VwhzIP2p9JFfc7RVn36KmonKuihfIctw2lAp
+ynJNVMyy2q5hyUmKfG45c3raeglDGB8JKVw+dg==</X509Certificate>
+</X509Data>
+    </KeyInfo>
+  </Signature>
+</DTE>
+
+<DTE version="1.0">
+  <Documento ID="F147T61">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>61</TipoDTE>
+        <Folio>147</Folio>
+        <FchEmis>2017-09-14</FchEmis>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>76040308-3</RUTEmisor>
+        <RznSoc>ESTEBAN GABRIEL GUENUL ALMONACID SERVIC</RznSoc>
+        <GiroEmis>SERVICIOS INFORMATICOS</GiroEmis>
+        <Acteco>726000</Acteco>
+        <CdgSIISucur>1</CdgSIISucur>
+        <DirOrigen>URMENETA 305 OFIC 513</DirOrigen>
+        <CmnaOrigen>PUERTO MONTT</CmnaOrigen>
+        <CiudadOrigen>PUERTO MONTT</CiudadOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>77813960-K</RUTRecep>
+        <RznSocRecep>AMULEN CONSULTORES LTDA</RznSocRecep>
+        <GiroRecep>ASESORIA TRIBUTARIA</GiroRecep>
+        <DirRecep>URMENETA 305 OFIC 513</DirRecep>
+        <CmnaRecep>PUERTO MONTT</CmnaRecep>
+        <CiudadRecep>PUERTO MONTT</CiudadRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>425147</MntNeto>
+        <MntExe>34624</MntExe>
+        <TasaIVA>19</TasaIVA>
+        <IVA>80778</IVA>
+        <MntTotal>540549</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT</TpoCodigo>
+        <VlrCodigo>8</VlrCodigo>
+      </CdgItem>
+      <NmbItem>Pintura B&amp;W AFECTO</NmbItem>
+      <DscItem>Pintura BANDW AFECTO</DscItem>
+      <QtyItem>23</QtyItem>
+      <PrcItem>1175</PrcItem>
+      <MontoItem>27025</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>2</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT</TpoCodigo>
+        <VlrCodigo>21</VlrCodigo>
+      </CdgItem>
+      <NmbItem>ITEM 2 AFECTO</NmbItem>
+      <DscItem>ITEM 2 AFECTO</DscItem>
+      <QtyItem>137</QtyItem>
+      <PrcItem>2906</PrcItem>
+      <MontoItem>398122</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>3</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT</TpoCodigo>
+        <VlrCodigo>24</VlrCodigo>
+      </CdgItem>
+      <IndExe>1</IndExe>
+      <NmbItem>ITEM 3 SERVICIO EXENTO</NmbItem>
+      <DscItem>ITEM 3 SERVICIO EXENTO</DscItem>
+      <QtyItem>1</QtyItem>
+      <PrcItem>34624</PrcItem>
+      <MontoItem>34624</MontoItem>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>SET</TpoDocRef>
+      <FolioRef>147</FolioRef>
+      <FchRef>2017-09-14</FchRef>
+      <RazonRef>CASO 858496-7</RazonRef>
+    </Referencia>
+    <Referencia>
+      <NroLinRef>2</NroLinRef>
+      <TpoDocRef>33</TpoDocRef>
+      <FolioRef>536</FolioRef>
+      <FchRef>2017-09-14</FchRef>
+      <CodRef>1</CodRef>
+      <RazonRef>ANULA FACTURA</RazonRef>
+    </Referencia>
+    <TED version="1.0">
+      <DD>
+        <RE>76040308-3</RE>
+        <TD>61</TD>
+        <F>147</F>
+        <FE>2017-09-14</FE>
+        <RR>77813960-K</RR>
+        <RSR>AMULEN CONSULTORES LTDA</RSR>
+        <MNT>540549</MNT>
+        <IT1>Pintura BANDW AFECTO</IT1>
+        <CAF version="1.0">
+          <DA>
+            <RE>76040308-3</RE>
+            <RS>ESTEBAN GABRIEL GUENUL  ALMONACID SERVIC</RS>
+            <TD>61</TD>
+            <RNG>
+              <D>145</D>
+              <H>188</H>
+            </RNG>
+            <FA>2017-09-14</FA>
+            <RSAPK>
+              <M>73PSYcUy2HfMkrDxE7BkjH2UD4b2JO4TG9ZWLzErzXdJ9pnmUXJTFZ1dm/MIuhEl8RzIsTwDuMo/kfCRBinGkw==</M>
+              <E>Aw==</E>
+            </RSAPK>
+            <IDK>100</IDK>
+          </DA>
+          <FRMA algoritmo="SHA1withRSA">TML2nUy8J8Ohe3urkpsg0koC8f8LmrsXWDuuFkhgo5yg32sdP1Vas1+MceZbY7U8RrazgNewtxmkO9q0+YH+/A==</FRMA>
+        </CAF>
+        <TSTED>2017-09-14T11:17:21</TSTED>
+      </DD>
+      <FRMT algoritmo="SHA1withRSA">5+ixaw8936tK1orVgEbcqr02fqAH3BC8xkPWsKbn6bMTsFABrFXHfj30urcFAPW0+LYRN8a8lbx6sL5aDRihXA==</FRMT>
+    </TED>
+    <TmstFirma>2017-09-14T11:17:21</TmstFirma>
+  </Documento>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+      <Reference URI="#F147T61">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <DigestValue>mVswlHh1aHeDVz18q4KN/O8KBq4=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>XA5dEheEU8jM0hTlyxbsOH3nEAnllolqeRZkt+WrpsRCqtdhjvf2sqTc7fEeQD94
+ybnJvDeaBJQISlNiv0wT+KvHJ/LHvvh3nprbA7fl2ty3AD/od83HMUsM00AQYYq4
+MlsZDXmCkWrG+3jpxzU21P5wV4h+QXhwZZ8iVyVLWxU=</SignatureValue>
+    <KeyInfo>
+      <KeyValue>
+<RSAKeyValue>
+<Modulus>
+qptCsO2Tvd5oseK7CN/Ogdzi2sE5rVryGp2A755PbxRQDuTNwOg5COuYXg3Z1PKe
+sKlGdX2AcXDgID+tOtR3BXMJdoe0KZaOIBvUPSgPcJoLwitm4OV1xMEk/tMfCWp2
+bqNa9K1KU2pQT3zZ2HkmCTk31497WDCruVMER5nDETk=
+</Modulus>
+<Exponent>
+AQAB
+</Exponent>
+</RSAKeyValue>
+</KeyValue>
+      <X509Data>
+        
+      <X509Certificate>MIIGSDCCBTCgAwIBAgIKf4GtmgAAAAgTXDANBgkqhkiG9w0BAQUFADCB0jELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+aWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQDEydFLUNFUlRDSElMRSBDQSBGSVJN
+QSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEWGHNjbGllbnRlc0Bl
+LWNlcnRjaGlsZS5jbDAeFw0xNzA2MDYyMjMxMjZaFw0yMDA2MDUyMjMxMjZaMIHL
+MQswCQYDVQQGEwJDTDEWMBQGA1UECBMNREUgTE9TIExBR09TIDETMBEGA1UEBxMK
+TGxhbnF1aWh1ZTEkMCIGA1UEChMbQU1VTEVOIENPTlNVTFRPUkVTIExJTUlUQURB
+MRwwGgYDVQQLExNBU0VTT1JJQSBUUklCVVRBUklBMSkwJwYDVQQDEyBFU1RFQkFO
+IEdBQlJJRUwgR1VFTlVMIEFMTU9OQUNJRDEgMB4GCSqGSIb3DQEJARYRZWd1ZW51
+bEBhbXVsZW4uY2wwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKqbQrDtk73e
+aLHiuwjfzoHc4trBOa1a8hqdgO+eT28UUA7kzcDoOQjrmF4N2dTynrCpRnV9gHFw
+4CA/rTrUdwVzCXaHtCmWjiAb1D0oD3CaC8IrZuDldcTBJP7THwlqdm6jWvStSlNq
+UE982dh5Jgk5N9ePe1gwq7lTBEeZwxE5AgMBAAGjggKnMIICozA9BgkrBgEEAYI3
+FQcEMDAuBiYrBgEEAYI3FQiC3IMvhZOMZoXVnReC4twnge/sPGGBmucVhq/gFQIB
+ZAIBBDAdBgNVHQ4EFgQUYSiqdz0DPBA7NXj+vETiBb3UkNUwCwYDVR0PBAQDAgTw
+MB8GA1UdIwQYMBaAFHjhPp/SErN6PI3NMA5Ts0MpB7NVMD4GA1UdHwQ3MDUwM6Ax
+oC+GLWh0dHA6Ly9jcmwuZS1jZXJ0Y2hpbGUuY2wvZWNlcnRjaGlsZWNhRkVTLmNy
+bDA6BggrBgEFBQcBAQQuMCwwKgYIKwYBBQUHMAGGHmh0dHA6Ly9vY3NwLmVjZXJ0
+Y2hpbGUuY2wvb2NzcDAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjEzOTY4NDgx
+LTgwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4MC01MIIBTQYDVR0g
+BIIBRDCCAUAwggE8BggrBgEEAcNSBTCCAS4wLQYIKwYBBQUHAgEWIWh0dHA6Ly93
+d3cuZS1jZXJ0Y2hpbGUuY2wvQ1BTLmh0bTCB/AYIKwYBBQUHAgIwge8egewAQwBl
+AHIAdABpAGYAaQBjAGEAZABvACAARgBpAHIAbQBhACAAUwBpAG0AcABsAGUALgAg
+AEgAYQAgAHMAaQBkAG8AIAB2AGEAbABpAGQAYQBkAG8AIABlAG4AIABmAG8AcgBt
+AGEAIABwAHIAZQBzAGUAbgBjAGkAYQBsACwAIABxAHUAZQBkAGEAbgBkAG8AIABo
+AGEAYgBpAGwAaQB0AGEAZABvACAAZQBsACAAQwBlAHIAdABpAGYAaQBjAGEAZABv
+ACAAcABhAHIAYQAgAHUAcwBvACAAdAByAGkAYgB1AHQAYQByAGkAbzANBgkqhkiG
+9w0BAQUFAAOCAQEAJ7z/S3fw1xA8u4XHHITfsAdB6GgzdD7WYgJWGdUQpNmbMU/c
+uJ05vzQs/sG+q4D3At5/DEoGK7Cq8ycmNeQwABmfu6ZZ8AmXgiJGAvNlsmDkIdVF
+CI3RUvl7AXQAVl5cIGBlpy1b0TYqIv3kKR1i74XWN9cV9kOE8BqhrCJ+aofffJNb
+57YRLVBdTUuu94yQQht51kuHX1jRW5wAlaeCsbifUCMZWDkfQ7msRCl6gsCIzxTL
+zcQ2sIN8s5QVG3mOWjb2gc4q9ue4VwhzIP2p9JFfc7RVn36KmonKuihfIctw2lAp
+ynJNVMyy2q5hyUmKfG45c3raeglDGB8JKVw+dg==</X509Certificate>
+</X509Data>
+    </KeyInfo>
+  </Signature>
+</DTE>
+
+<DTE version="1.0">
+  <Documento ID="F53T56">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>56</TipoDTE>
+        <Folio>53</Folio>
+        <FchEmis>2017-09-14</FchEmis>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>76040308-3</RUTEmisor>
+        <RznSoc>ESTEBAN GABRIEL GUENUL ALMONACID SERVIC</RznSoc>
+        <GiroEmis>SERVICIOS INFORMATICOS</GiroEmis>
+        <Acteco>726000</Acteco>
+        <CdgSIISucur>1</CdgSIISucur>
+        <DirOrigen>URMENETA 305 OFIC 513</DirOrigen>
+        <CmnaOrigen>PUERTO MONTT</CmnaOrigen>
+        <CiudadOrigen>PUERTO MONTT</CiudadOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>77813960-K</RUTRecep>
+        <RznSocRecep>AMULEN CONSULTORES LTDA</RznSocRecep>
+        <GiroRecep>ASESORIA TRIBUTARIA</GiroRecep>
+        <DirRecep>URMENETA 305 OFIC 513</DirRecep>
+        <CmnaRecep>PUERTO MONTT</CmnaRecep>
+        <CiudadRecep>PUERTO MONTT</CiudadRecep>
+      </Receptor>
+      <Totales>
+        <MntTotal>0</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT</TpoCodigo>
+        <VlrCodigo>25</VlrCodigo>
+      </CdgItem>
+      <NmbItem>ANULA DOCUMENTO</NmbItem>
+      <DscItem>ANULA DOCUMENTO</DscItem>
+      <MontoItem>0</MontoItem>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>SET</TpoDocRef>
+      <FolioRef>53</FolioRef>
+      <FchRef>2017-09-14</FchRef>
+      <RazonRef>CASO 858496-8</RazonRef>
+    </Referencia>
+    <Referencia>
+      <NroLinRef>2</NroLinRef>
+      <TpoDocRef>61</TpoDocRef>
+      <FolioRef>145</FolioRef>
+      <FchRef>2017-09-14</FchRef>
+      <CodRef>1</CodRef>
+      <RazonRef>ANULA NOTA DE CREDITO ELECTRONICA</RazonRef>
+    </Referencia>
+    <TED version="1.0">
+      <DD>
+        <RE>76040308-3</RE>
+        <TD>56</TD>
+        <F>53</F>
+        <FE>2017-09-14</FE>
+        <RR>77813960-K</RR>
+        <RSR>AMULEN CONSULTORES LTDA</RSR>
+        <MNT>0</MNT>
+        <IT1>ANULA DOCUMENTO</IT1>
+        <CAF version="1.0">
+          <DA>
+            <RE>76040308-3</RE>
+            <RS>ESTEBAN GABRIEL GUENUL  ALMONACID SERVIC</RS>
+            <TD>56</TD>
+            <RNG>
+              <D>53</D>
+              <H>53</H>
+            </RNG>
+            <FA>2017-09-14</FA>
+            <RSAPK>
+              <M>0dC8PcMIDGMxeH223GA7BMBm398UhxfnKqt5eRS7ZNb+cOXZCiQeZZiefbO/bcoUy5+bXOvfrBZhVo0PRU5mLw==</M>
+              <E>Aw==</E>
+            </RSAPK>
+            <IDK>100</IDK>
+          </DA>
+          <FRMA algoritmo="SHA1withRSA">hGlkYsuvdz3NcAIWrytTKmZraQ29C9RJF/ZbvASZNFJON9V7A21qhwk1bKnjTMviQsKHok1K4UFqGkW1osBsnA==</FRMA>
+        </CAF>
+        <TSTED>2017-09-14T11:19:38</TSTED>
+      </DD>
+      <FRMT algoritmo="SHA1withRSA">PkAj0UlOdm5dXk7M5Q5ic7vaE9GN8Ev4zB33AqQmySJNzIv8v4YHxDc9Z4nR/eWK4gu0N7dogsPOq9ptQ+FwDw==</FRMT>
+    </TED>
+    <TmstFirma>2017-09-14T11:19:38</TmstFirma>
+  </Documento>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+      <Reference URI="#F53T56">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <DigestValue>bumo0JR25ZnDLde4A+BMjuE0fTk=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>SrokquYcvMv+8FV3jPsoyu1Hgf1Pf6xNBoTMBw24EeaIWTd4hD/Slm1xM+qe6SCj
+RHwC/bz+wol4xu7uIeH5WoybzV42IpbamFHB6pfRzxI3BHYkIBUUArWP38WKP+hp
+TjZ8Im4eDBI0c3XKgFvotzNdkHBBx7RrWIrcdNGkLds=</SignatureValue>
+    <KeyInfo>
+      <KeyValue>
+<RSAKeyValue>
+<Modulus>
+qptCsO2Tvd5oseK7CN/Ogdzi2sE5rVryGp2A755PbxRQDuTNwOg5COuYXg3Z1PKe
+sKlGdX2AcXDgID+tOtR3BXMJdoe0KZaOIBvUPSgPcJoLwitm4OV1xMEk/tMfCWp2
+bqNa9K1KU2pQT3zZ2HkmCTk31497WDCruVMER5nDETk=
+</Modulus>
+<Exponent>
+AQAB
+</Exponent>
+</RSAKeyValue>
+</KeyValue>
+      <X509Data>
+        
+      <X509Certificate>MIIGSDCCBTCgAwIBAgIKf4GtmgAAAAgTXDANBgkqhkiG9w0BAQUFADCB0jELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+aWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQDEydFLUNFUlRDSElMRSBDQSBGSVJN
+QSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEWGHNjbGllbnRlc0Bl
+LWNlcnRjaGlsZS5jbDAeFw0xNzA2MDYyMjMxMjZaFw0yMDA2MDUyMjMxMjZaMIHL
+MQswCQYDVQQGEwJDTDEWMBQGA1UECBMNREUgTE9TIExBR09TIDETMBEGA1UEBxMK
+TGxhbnF1aWh1ZTEkMCIGA1UEChMbQU1VTEVOIENPTlNVTFRPUkVTIExJTUlUQURB
+MRwwGgYDVQQLExNBU0VTT1JJQSBUUklCVVRBUklBMSkwJwYDVQQDEyBFU1RFQkFO
+IEdBQlJJRUwgR1VFTlVMIEFMTU9OQUNJRDEgMB4GCSqGSIb3DQEJARYRZWd1ZW51
+bEBhbXVsZW4uY2wwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKqbQrDtk73e
+aLHiuwjfzoHc4trBOa1a8hqdgO+eT28UUA7kzcDoOQjrmF4N2dTynrCpRnV9gHFw
+4CA/rTrUdwVzCXaHtCmWjiAb1D0oD3CaC8IrZuDldcTBJP7THwlqdm6jWvStSlNq
+UE982dh5Jgk5N9ePe1gwq7lTBEeZwxE5AgMBAAGjggKnMIICozA9BgkrBgEEAYI3
+FQcEMDAuBiYrBgEEAYI3FQiC3IMvhZOMZoXVnReC4twnge/sPGGBmucVhq/gFQIB
+ZAIBBDAdBgNVHQ4EFgQUYSiqdz0DPBA7NXj+vETiBb3UkNUwCwYDVR0PBAQDAgTw
+MB8GA1UdIwQYMBaAFHjhPp/SErN6PI3NMA5Ts0MpB7NVMD4GA1UdHwQ3MDUwM6Ax
+oC+GLWh0dHA6Ly9jcmwuZS1jZXJ0Y2hpbGUuY2wvZWNlcnRjaGlsZWNhRkVTLmNy
+bDA6BggrBgEFBQcBAQQuMCwwKgYIKwYBBQUHMAGGHmh0dHA6Ly9vY3NwLmVjZXJ0
+Y2hpbGUuY2wvb2NzcDAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjEzOTY4NDgx
+LTgwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4MC01MIIBTQYDVR0g
+BIIBRDCCAUAwggE8BggrBgEEAcNSBTCCAS4wLQYIKwYBBQUHAgEWIWh0dHA6Ly93
+d3cuZS1jZXJ0Y2hpbGUuY2wvQ1BTLmh0bTCB/AYIKwYBBQUHAgIwge8egewAQwBl
+AHIAdABpAGYAaQBjAGEAZABvACAARgBpAHIAbQBhACAAUwBpAG0AcABsAGUALgAg
+AEgAYQAgAHMAaQBkAG8AIAB2AGEAbABpAGQAYQBkAG8AIABlAG4AIABmAG8AcgBt
+AGEAIABwAHIAZQBzAGUAbgBjAGkAYQBsACwAIABxAHUAZQBkAGEAbgBkAG8AIABo
+AGEAYgBpAGwAaQB0AGEAZABvACAAZQBsACAAQwBlAHIAdABpAGYAaQBjAGEAZABv
+ACAAcABhAHIAYQAgAHUAcwBvACAAdAByAGkAYgB1AHQAYQByAGkAbzANBgkqhkiG
+9w0BAQUFAAOCAQEAJ7z/S3fw1xA8u4XHHITfsAdB6GgzdD7WYgJWGdUQpNmbMU/c
+uJ05vzQs/sG+q4D3At5/DEoGK7Cq8ycmNeQwABmfu6ZZ8AmXgiJGAvNlsmDkIdVF
+CI3RUvl7AXQAVl5cIGBlpy1b0TYqIv3kKR1i74XWN9cV9kOE8BqhrCJ+aofffJNb
+57YRLVBdTUuu94yQQht51kuHX1jRW5wAlaeCsbifUCMZWDkfQ7msRCl6gsCIzxTL
+zcQ2sIN8s5QVG3mOWjb2gc4q9ue4VwhzIP2p9JFfc7RVn36KmonKuihfIctw2lAp
+ynJNVMyy2q5hyUmKfG45c3raeglDGB8JKVw+dg==</X509Certificate>
+</X509Data>
+    </KeyInfo>
+  </Signature>
+</DTE>
+</SetDTE><dsig:Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><dsig:SignedInfo><dsig:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><dsig:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><dsig:Reference URI="#SetDoc"><dsig:Transforms><dsig:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></dsig:Transforms><dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><dsig:DigestValue>VdbeePUz+dBM8Jkx32uD57CV+r8=</dsig:DigestValue></dsig:Reference></dsig:SignedInfo><dsig:SignatureValue>fxdHpUskpW8UMSGeTtbF1AJY7sbKOdjJAnCKExqdADNXseVR7ZzRUW24PhkVNDFJ
+rAM8eF1SBxGN1D0ExYgAPCSdOlHri0ecVKj1mOxcz3iaMZ4J95VAAuU58BEvQePR
+4NbayS9d2N27K1OFvX7WkRqf+ROy14DPPA0Cs/FTBbU=</dsig:SignatureValue><dsig:KeyInfo><dsig:KeyValue>
+<dsig:RSAKeyValue>
+<dsig:Modulus>
+qptCsO2Tvd5oseK7CN/Ogdzi2sE5rVryGp2A755PbxRQDuTNwOg5COuYXg3Z1PKe
+sKlGdX2AcXDgID+tOtR3BXMJdoe0KZaOIBvUPSgPcJoLwitm4OV1xMEk/tMfCWp2
+bqNa9K1KU2pQT3zZ2HkmCTk31497WDCruVMER5nDETk=
+</dsig:Modulus>
+<dsig:Exponent>
+AQAB
+</dsig:Exponent>
+</dsig:RSAKeyValue>
+</dsig:KeyValue><dsig:X509Data>
+<dsig:X509Certificate>MIIGSDCCBTCgAwIBAgIKf4GtmgAAAAgTXDANBgkqhkiG9w0BAQUFADCB0jELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+aWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQDEydFLUNFUlRDSElMRSBDQSBGSVJN
+QSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEWGHNjbGllbnRlc0Bl
+LWNlcnRjaGlsZS5jbDAeFw0xNzA2MDYyMjMxMjZaFw0yMDA2MDUyMjMxMjZaMIHL
+MQswCQYDVQQGEwJDTDEWMBQGA1UECBMNREUgTE9TIExBR09TIDETMBEGA1UEBxMK
+TGxhbnF1aWh1ZTEkMCIGA1UEChMbQU1VTEVOIENPTlNVTFRPUkVTIExJTUlUQURB
+MRwwGgYDVQQLExNBU0VTT1JJQSBUUklCVVRBUklBMSkwJwYDVQQDEyBFU1RFQkFO
+IEdBQlJJRUwgR1VFTlVMIEFMTU9OQUNJRDEgMB4GCSqGSIb3DQEJARYRZWd1ZW51
+bEBhbXVsZW4uY2wwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKqbQrDtk73e
+aLHiuwjfzoHc4trBOa1a8hqdgO+eT28UUA7kzcDoOQjrmF4N2dTynrCpRnV9gHFw
+4CA/rTrUdwVzCXaHtCmWjiAb1D0oD3CaC8IrZuDldcTBJP7THwlqdm6jWvStSlNq
+UE982dh5Jgk5N9ePe1gwq7lTBEeZwxE5AgMBAAGjggKnMIICozA9BgkrBgEEAYI3
+FQcEMDAuBiYrBgEEAYI3FQiC3IMvhZOMZoXVnReC4twnge/sPGGBmucVhq/gFQIB
+ZAIBBDAdBgNVHQ4EFgQUYSiqdz0DPBA7NXj+vETiBb3UkNUwCwYDVR0PBAQDAgTw
+MB8GA1UdIwQYMBaAFHjhPp/SErN6PI3NMA5Ts0MpB7NVMD4GA1UdHwQ3MDUwM6Ax
+oC+GLWh0dHA6Ly9jcmwuZS1jZXJ0Y2hpbGUuY2wvZWNlcnRjaGlsZWNhRkVTLmNy
+bDA6BggrBgEFBQcBAQQuMCwwKgYIKwYBBQUHMAGGHmh0dHA6Ly9vY3NwLmVjZXJ0
+Y2hpbGUuY2wvb2NzcDAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjEzOTY4NDgx
+LTgwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4MC01MIIBTQYDVR0g
+BIIBRDCCAUAwggE8BggrBgEEAcNSBTCCAS4wLQYIKwYBBQUHAgEWIWh0dHA6Ly93
+d3cuZS1jZXJ0Y2hpbGUuY2wvQ1BTLmh0bTCB/AYIKwYBBQUHAgIwge8egewAQwBl
+AHIAdABpAGYAaQBjAGEAZABvACAARgBpAHIAbQBhACAAUwBpAG0AcABsAGUALgAg
+AEgAYQAgAHMAaQBkAG8AIAB2AGEAbABpAGQAYQBkAG8AIABlAG4AIABmAG8AcgBt
+AGEAIABwAHIAZQBzAGUAbgBjAGkAYQBsACwAIABxAHUAZQBkAGEAbgBkAG8AIABo
+AGEAYgBpAGwAaQB0AGEAZABvACAAZQBsACAAQwBlAHIAdABpAGYAaQBjAGEAZABv
+ACAAcABhAHIAYQAgAHUAcwBvACAAdAByAGkAYgB1AHQAYQByAGkAbzANBgkqhkiG
+9w0BAQUFAAOCAQEAJ7z/S3fw1xA8u4XHHITfsAdB6GgzdD7WYgJWGdUQpNmbMU/c
+uJ05vzQs/sG+q4D3At5/DEoGK7Cq8ycmNeQwABmfu6ZZ8AmXgiJGAvNlsmDkIdVF
+CI3RUvl7AXQAVl5cIGBlpy1b0TYqIv3kKR1i74XWN9cV9kOE8BqhrCJ+aofffJNb
+57YRLVBdTUuu94yQQht51kuHX1jRW5wAlaeCsbifUCMZWDkfQ7msRCl6gsCIzxTL
+zcQ2sIN8s5QVG3mOWjb2gc4q9ue4VwhzIP2p9JFfc7RVn36KmonKuihfIctw2lAp
+ynJNVMyy2q5hyUmKfG45c3raeglDGB8JKVw+dg==</dsig:X509Certificate>
+</dsig:X509Data></dsig:KeyInfo></dsig:Signature></envio:EnvioDTE>
