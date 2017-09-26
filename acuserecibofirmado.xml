@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<RespuestaDTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte RespuestaEnvioDTE_v10.xsd" version="1.0">
+  <Resultado ID="ACUSERECIBO">
+    <Caratula version="1.0">
+      <RutResponde>76040308-3</RutResponde>
+      <RutRecibe>88888888-8</RutRecibe>
+      <IdRespuesta>1</IdRespuesta>
+      <NroDetalles>1</NroDetalles>
+      <TmstFirmaResp>2017-09-25T18:22:18</TmstFirmaResp>
+    </Caratula>
+    
+      <ResultadoDTE>
+        <TipoDTE>33</TipoDTE>
+        <Folio>52225</Folio>
+        <FchEmis>2017-09-14</FchEmis>
+        <RUTEmisor>88888888-8</RUTEmisor>
+        <RUTRecep>76040308-3</RUTRecep>
+        <MntTotal>5366</MntTotal>
+        <CodEnvio>858848</CodEnvio>
+        <EstadoDTE>0</EstadoDTE>
+         <EstadoDTEGlosa>ACEPTADO OK</EstadoDTEGlosa>
+    </ResultadoDTE>
+  </Resultado>
+
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+      <Reference URI="#ACUSERECIBO">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <DigestValue>HaXPJzUeztUPGwbPSBUtYAHUcDY=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>ZjYqqqYcZ8vneMlHUSQsnTj5rzLRIG/l+ZIYcfF+S6dgI3PftjnCc/uODj58dwyP
+k/1OciamZ5cF3Xpdfzo7DWX0Ha6zKHIfFYbv8MtXeZnR9tNitIGjlfK+iB8517S/
+dxKQ1sWaBZXSzP0D77uTKE+LDMhR6ASown7hx4341W8=</SignatureValue>
+    <KeyInfo>
+      <KeyValue>
+<RSAKeyValue>
+<Modulus>
+qptCsO2Tvd5oseK7CN/Ogdzi2sE5rVryGp2A755PbxRQDuTNwOg5COuYXg3Z1PKe
+sKlGdX2AcXDgID+tOtR3BXMJdoe0KZaOIBvUPSgPcJoLwitm4OV1xMEk/tMfCWp2
+bqNa9K1KU2pQT3zZ2HkmCTk31497WDCruVMER5nDETk=
+</Modulus>
+<Exponent>
+AQAB
+</Exponent>
+</RSAKeyValue>
+</KeyValue>
+      <X509Data>
+        
+      <X509Certificate>MIIGSDCCBTCgAwIBAgIKf4GtmgAAAAgTXDANBgkqhkiG9w0BAQUFADCB0jELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+aWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQDEydFLUNFUlRDSElMRSBDQSBGSVJN
+QSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEWGHNjbGllbnRlc0Bl
+LWNlcnRjaGlsZS5jbDAeFw0xNzA2MDYyMjMxMjZaFw0yMDA2MDUyMjMxMjZaMIHL
+MQswCQYDVQQGEwJDTDEWMBQGA1UECBMNREUgTE9TIExBR09TIDETMBEGA1UEBxMK
+TGxhbnF1aWh1ZTEkMCIGA1UEChMbQU1VTEVOIENPTlNVTFRPUkVTIExJTUlUQURB
+MRwwGgYDVQQLExNBU0VTT1JJQSBUUklCVVRBUklBMSkwJwYDVQQDEyBFU1RFQkFO
+IEdBQlJJRUwgR1VFTlVMIEFMTU9OQUNJRDEgMB4GCSqGSIb3DQEJARYRZWd1ZW51
+bEBhbXVsZW4uY2wwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKqbQrDtk73e
+aLHiuwjfzoHc4trBOa1a8hqdgO+eT28UUA7kzcDoOQjrmF4N2dTynrCpRnV9gHFw
+4CA/rTrUdwVzCXaHtCmWjiAb1D0oD3CaC8IrZuDldcTBJP7THwlqdm6jWvStSlNq
+UE982dh5Jgk5N9ePe1gwq7lTBEeZwxE5AgMBAAGjggKnMIICozA9BgkrBgEEAYI3
+FQcEMDAuBiYrBgEEAYI3FQiC3IMvhZOMZoXVnReC4twnge/sPGGBmucVhq/gFQIB
+ZAIBBDAdBgNVHQ4EFgQUYSiqdz0DPBA7NXj+vETiBb3UkNUwCwYDVR0PBAQDAgTw
+MB8GA1UdIwQYMBaAFHjhPp/SErN6PI3NMA5Ts0MpB7NVMD4GA1UdHwQ3MDUwM6Ax
+oC+GLWh0dHA6Ly9jcmwuZS1jZXJ0Y2hpbGUuY2wvZWNlcnRjaGlsZWNhRkVTLmNy
+bDA6BggrBgEFBQcBAQQuMCwwKgYIKwYBBQUHMAGGHmh0dHA6Ly9vY3NwLmVjZXJ0
+Y2hpbGUuY2wvb2NzcDAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjEzOTY4NDgx
+LTgwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4MC01MIIBTQYDVR0g
+BIIBRDCCAUAwggE8BggrBgEEAcNSBTCCAS4wLQYIKwYBBQUHAgEWIWh0dHA6Ly93
+d3cuZS1jZXJ0Y2hpbGUuY2wvQ1BTLmh0bTCB/AYIKwYBBQUHAgIwge8egewAQwBl
+AHIAdABpAGYAaQBjAGEAZABvACAARgBpAHIAbQBhACAAUwBpAG0AcABsAGUALgAg
+AEgAYQAgAHMAaQBkAG8AIAB2AGEAbABpAGQAYQBkAG8AIABlAG4AIABmAG8AcgBt
+AGEAIABwAHIAZQBzAGUAbgBjAGkAYQBsACwAIABxAHUAZQBkAGEAbgBkAG8AIABo
+AGEAYgBpAGwAaQB0AGEAZABvACAAZQBsACAAQwBlAHIAdABpAGYAaQBjAGEAZABv
+ACAAcABhAHIAYQAgAHUAcwBvACAAdAByAGkAYgB1AHQAYQByAGkAbzANBgkqhkiG
+9w0BAQUFAAOCAQEAJ7z/S3fw1xA8u4XHHITfsAdB6GgzdD7WYgJWGdUQpNmbMU/c
+uJ05vzQs/sG+q4D3At5/DEoGK7Cq8ycmNeQwABmfu6ZZ8AmXgiJGAvNlsmDkIdVF
+CI3RUvl7AXQAVl5cIGBlpy1b0TYqIv3kKR1i74XWN9cV9kOE8BqhrCJ+aofffJNb
+57YRLVBdTUuu94yQQht51kuHX1jRW5wAlaeCsbifUCMZWDkfQ7msRCl6gsCIzxTL
+zcQ2sIN8s5QVG3mOWjb2gc4q9ue4VwhzIP2p9JFfc7RVn36KmonKuihfIctw2lAp
+ynJNVMyy2q5hyUmKfG45c3raeglDGB8JKVw+dg==</X509Certificate>
+</X509Data>
+    </KeyInfo>
+  </Signature>
+  </RespuestaDTE>
